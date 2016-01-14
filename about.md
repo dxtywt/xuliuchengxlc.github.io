@@ -3,8 +3,8 @@ layout: page
 title: About
 ---
 
-Give people something to read and get to know you. Here's my attempt: this is [Mu-An](http://muan.co), a designer developer who lives in London at the moment.
+This is [Liucheng Xu's blog](http://xuliuchengxlc.github.io), whose content is almost about my academic research and partly daily life.
 
-Tweet at [@muanchiou](http://twitter.com/muanchiou), read my code on [GitHub](http://github.com/muan), see my designs on [Dribbble](http://dribbble.com/muan), find my CV on [LinkedIn](http://uk.linkedin.com/in/muanchiou).
+If you find anything wrong or inapproprite with my essays, please email to me. Here is the email address: xuliuchengxlc@gmail.com.
 
-This theme is made by me. You have a nice day. ♥
+You have a nice day. ♥
