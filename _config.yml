@@ -23,7 +23,10 @@ links:
     external:     true
 highlighter:      pygments
 permalink:        pretty
-markdown:         redcarpet
-redcarpet:
-  extensions:
-    - smart
+#markdown:         redcarpet
+markdown:         kramdown
+#redcarpet:
+ # extensions:
+  #  - smart
+kramdown:
+    input:GFM
