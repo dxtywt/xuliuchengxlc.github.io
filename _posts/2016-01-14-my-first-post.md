@@ -9,16 +9,16 @@ title: My First post
 	- $\int_0^\pi sinx = 2$
 
 - 代码块
+
 {% highlight c %}
-```
 #include <stdio.h>
 int main()
 {
 	printf("hello,world!\n");
     return 0;
 }
-```
 {% endhighlight %}
+
 - | 一些简单样式 | 效果 |
 |--------|--------|
 |  ++++下划线      | ++下划线++       |
