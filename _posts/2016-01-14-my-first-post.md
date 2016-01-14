@@ -9,8 +9,8 @@ title: My First post
 	- $\int_0^\pi sinx = 2$
 
 - 代码块
-```c
-# ...c code
+
+```
 #include <stdio.h>
 int main()
 {
