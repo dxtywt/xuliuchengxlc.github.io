@@ -364,5 +364,5 @@ img {
 code.has-jax {
     font: inherit; 
     font-size: 100%; 
-    background: #39382e; 
-    border: none;}
+    background-color: #39382e; 
+    border: inherit;}
