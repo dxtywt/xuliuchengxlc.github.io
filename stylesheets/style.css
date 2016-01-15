@@ -357,9 +357,9 @@ img {
   left: 50%;
   font-size: 60px; }
 .paging .left {
-  margin-left: -300px; }
+  margin-left: -400px; }
 .paging .right {
-  margin-left: 340px; }
+  margin-left: 300px; }
   
 code.has-jax {
     font: inherit; 
