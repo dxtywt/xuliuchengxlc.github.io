@@ -52,8 +52,10 @@
     $(document).ready(function(){
         $("ul li a").mouseover(function(){
                 $(this).css("background-color","#DFECEC");
-                  
                 });
+                $("ul li a").mouseout(function(){
+                    $(this).css("background-color","#FFFFFF");
+                })
 
     });
 </script>
