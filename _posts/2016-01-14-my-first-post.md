@@ -1,7 +1,6 @@
 ---
 layout: post
 title: My First post
-disqus: y
 ---
 
 期间试过多次，今天终于把GitHub的博客搞定了，主题很简单，正合我意。第一篇博客就先来测试一下markdown渲染成HTML的效果吧(本地使用的是Haroopad编辑器)。
