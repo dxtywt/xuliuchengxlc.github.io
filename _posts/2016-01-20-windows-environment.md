@@ -12,6 +12,7 @@ disqus: y
 
 下面就来介绍一下我的Windows环境配置，操作系统为Windows 10 64位.
 
+---
 ##提高效率
 
 ####Everything
@@ -31,13 +32,13 @@ executor的keywords设置很简单，在setting里面Add Keywords就可以设置
 我的一些快捷键设置如下：
 
 | 快捷键 | 软件 |
-|--------|--------|
-|  <code>ctrl</code> + 1      | chrome:       |
-|  <code>ctrl</code> + 2      | Firefox:       |
+|--------|--------:|
+|  <code>ctrl</code> + 1      | chrome       |
+|  <code>ctrl</code> + 2      | Firefox       |
 |  <code>ctrl</code> + 4      | 欧路词典 or 有道词典   |
 |  <code>ctrl</code> + 5      | 福昕阅读器       |
-|  <code>ctrl</code> + 7      | :SumatraPDF       |
-|  <code>ctrl</code> + 0      | :everything       |
+|  <code>ctrl</code> + 7      | SumatraPDF       |
+|  <code>ctrl</code> + 0      | everything       |
 
 记忆起来也很简单，everything最常用就用<code>ctrl</code>+0，<code>ctrl</code>辅以1,2为常用的两个浏览器，4、5、7分别于对应的软件名字数。
 
@@ -65,6 +66,7 @@ executor的keywords设置很简单，在setting里面Add Keywords就可以设置
 	- 不要启用Aero blur效果，否则背景会很黑且不通透，显得很难看；
 	- 显示任务编号
 
+---
 ##提升颜值
 
 ####StartIsBack
