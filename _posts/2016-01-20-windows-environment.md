@@ -68,6 +68,7 @@ executor的keywords设置很简单，在setting里面Add Keywords就可以设置
 	- 显示任务编号
   
 ![vistaswitcher](/images/blog/2016/01-20/vistaswitcher.png)
+
 ---
 ##提升颜值
 
