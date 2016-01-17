@@ -63,11 +63,11 @@ executor的keywords设置很简单，在setting里面Add Keywords就可以设置
 
 虽然VistaSwitcher也是许久没有更新，不过在win10的表现除了一点小瑕疵，还算不错，很稳定。
 
-- 注意一下外观设置：
-	- 不要启用Aero blur效果，否则背景会很黑且不通透，显得很难看；
-	- 显示任务编号
+	- 注意一下外观设置：
+		- 不要启用Aero blur效果，否则背景会很黑且不通透，显得很难看；
+		- 显示任务编号
   
-![vistaswitcher](/images/blog/2016/01-20/vistaswitcher.png)
+	![vistaswitcher](/images/blog/2016/01-20/vistaswitcher.png)
 
 ---
 ##提升颜值
@@ -81,11 +81,11 @@ executor的keywords设置很简单，在setting里面Add Keywords就可以设置
 win10的任务栏实在是不好看，黑色的一条杠横在那儿。用了startisback以后可以将任务栏设置为透明状态，并且还可以设置开始菜单。
 可能安装以后有人会找不到程序在哪里，用上面的everything搜索startisback就会发现StartIsBackCfg.exe,运行它就会进入到设置页面。
 
-- 主要是设置任务栏的透明度。
-	- **自定义任务栏颜色**改变透明度
-	- 选择**使用较大的任务栏图标**。
+	- 主要是设置任务栏的透明度。
+		- **自定义任务栏颜色**改变透明度
+		- 选择**使用较大的任务栏图标**。
   
-![startisback](/images/blog/2016/01-20/startisback.png)
+	![startisback](/images/blog/2016/01-20/startisback.png)
 ####NetSpeedMonitor
 
 **在任务栏显示网速**
