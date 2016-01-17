@@ -11,7 +11,7 @@ disqus: y
 这里可能并不会做很多关于软件详细的介绍，有心的人自然会去搜索，去试用，去了解。我只是将我的一些经验之谈分享出来供大家参考。
 
 下面就来介绍一下我的Windows环境配置，操作系统为Windows 10 64位.  
-![win屏幕截图](/images/blog/2016-01-20-win-screen.png)
+![win屏幕截图](/images/blog/2016/01-20/win-screen.png)
 
 ---
 ##提高效率
@@ -67,7 +67,7 @@ executor的keywords设置很简单，在setting里面Add Keywords就可以设置
 	- 不要启用Aero blur效果，否则背景会很黑且不通透，显得很难看；
 	- 显示任务编号
   
-![vistaswitcher](/images/blog/2016-01-20-vistaswitcher.png)
+![vistaswitcher](/images/blog/2016/01-20/vistaswitcher.png)
 ---
 ##提升颜值
 
@@ -84,7 +84,7 @@ win10的任务栏实在是不好看，黑色的一条杠横在那儿。用了sta
 	- **自定义任务栏颜色**改变透明度
 	- 选择**使用较大的任务栏图标**。
   
-![startisback](/images/blog/2016-01-20-startisback.png)
+![startisback](/images/blog/2016/01-20/startisback.png)
 ####NetSpeedMonitor
 
 **在任务栏显示网速**
