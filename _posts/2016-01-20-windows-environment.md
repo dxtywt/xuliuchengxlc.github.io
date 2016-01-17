@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 我的Windows环境 ---- 漂亮，简单，实用
+title: 我的Windows环境 ---- 旨在漂亮，简单，实用
 disqus: y
 ---
 
