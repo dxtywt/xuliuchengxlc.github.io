@@ -73,9 +73,9 @@ executor的keywords设置很简单，在setting里面Add Keywords就可以设置
 LaTeX编辑器：TeXstudio,跨平台
 
 ---
-##提升颜值
+#提升颜值
 
-####StartIsBack
+###StartIsBack
 
 **美化任务栏**
 
@@ -90,14 +90,14 @@ win10的任务栏实在是不好看，黑色的一条杠横在那儿。用了sta
   
 	![startisback](/images/blog/2016/01-20/startisback.png)
 
-####NetSpeedMonitor
+###NetSpeedMonitor
 
 **在任务栏显示网速**
 
 用这个软件主要是想关闭什么管家、杀毒之类的加速球，嫌它碍事。  
 台式机有32G内存，所以一般不用担心内存占用的问题。实在有需要的时候，<code>Ctrl</code>+<code>shift</code>+<code>ESC</code>调出资源管理器也就是了。因此只用看看网速就安心了。
 
-####MacType
+###MacType
 
 **美化Windows字体**
 
