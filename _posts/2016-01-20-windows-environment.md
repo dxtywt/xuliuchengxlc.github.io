@@ -14,16 +14,16 @@ disqus: y
 ![win屏幕截图](/images/blog/2016/01-20/win-screen.png)
 
 ---
-##提高效率
+#提高效率
 
-####Everything
+###Everything
 
 **快速检索文件**
 
 相信很多人都知道everything，当我们需要找到某个文件时非它莫属，功能十分强大。  
 搜索几乎是秒出结果，堪比mac下的spotlight，而且支持正则表达式搜索。
 
-####Executor
+###Executor
 
 **自定义快捷键**,快速启动程序。
 
@@ -45,17 +45,17 @@ executor的keywords设置很简单，在setting里面Add Keywords就可以设置
 
 另外关于everything的快捷键设置有些不同，不能勾选only one instance running选项，否则快捷键无效。
 
-####QTTabBar
+###QTTabBar
 
 **增强文件资源管理器**
 
 与QTTabBar类似的还有一个非常好的软件clover，可惜在win10下面的表现实在是糟糕，频繁崩溃。
 
-####SumatraPDF
+###SumatraPDF
 
 **用类似vim的方式阅读pdf**，可以实现全键盘操作。
 
-####VistaSwitcher
+###VistaSwitcher
 
 **简化任务切换窗口**
 
@@ -68,6 +68,9 @@ executor的keywords设置很简单，在setting里面Add Keywords就可以设置
 	- 显示任务编号
 
 	![vistaswitcher](/images/blog/2016/01-20/vistaswitcher.png)
+
+###推荐软件
+LaTeX编辑器：TeXstudio,跨平台
 
 ---
 ##提升颜值
