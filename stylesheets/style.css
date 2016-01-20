@@ -22,6 +22,13 @@ body {
 img {
   border: none; }
 
+table {
+    table-collapse:collapse;
+    border:.5px solid;
+}
+th, td {
+    border:.5px solid;
+}
 #go-back-home {
   margin: 40px 0 0; }
   #go-back-home:hover {
