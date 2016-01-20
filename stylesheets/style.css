@@ -1,5 +1,5 @@
 h1, h2, h3, h4, h5, strong, b {
-  font-weight: 600; }
+  font-weight: 700; }
 
 html, body {
   height: 100%; }
@@ -8,9 +8,10 @@ body {
   background: #f9f9f9;
   color: #303030;
   font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
+  font-family:"Times New Roman",Georgia,Serif;
+  font-weight: normal;
   font-size: 16px;
-  line-height: 21px;
+  line-height: 20px;
   padding: 0;
   margin: 0; }
   body, body * {
