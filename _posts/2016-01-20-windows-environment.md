@@ -16,7 +16,7 @@ disqus: y
 ![win屏幕截图](/images/blog/2016/01-20/win-screen.png)
 
 ---
-#提高效率
+##提高效率
 
 ###Everything
 
@@ -75,7 +75,7 @@ executor的keywords设置很简单，在setting里面Add Keywords就可以设置
 LaTeX编辑器：TeXstudio,跨平台
 
 ---
-#提升颜值
+##提升颜值
 
 ###StartIsBack
 
