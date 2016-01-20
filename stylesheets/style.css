@@ -24,8 +24,8 @@ img {
 
 table {
     font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
-    width:100%;
     border-collapse:collapse;
+    margin-left:60px;
 }
 th, td{
     font-size:1em;
