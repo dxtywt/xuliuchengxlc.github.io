@@ -24,10 +24,10 @@ img {
 
 table {
     table-collapse:collapse;
-    border:.5px solid;
+    border:1px solid;
 }
 th, td {
-    border:.5px solid;
+    border:1px solid;
 }
 #go-back-home {
   margin: 40px 0 0; }
