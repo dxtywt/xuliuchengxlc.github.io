@@ -75,6 +75,8 @@ executor的keywords设置很简单，在setting里面Add Keywords就可以设置
 
 LaTeX编辑器：TeXstudio,跨平台
 
+翻墙：lantern，免费；shadowsocks, www.ss-link.com。
+
 chrome插件：
 
 |插件|功能|
