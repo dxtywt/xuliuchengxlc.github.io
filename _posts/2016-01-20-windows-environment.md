@@ -76,6 +76,7 @@ executor的keywords设置很简单，在setting里面Add Keywords就可以设置
 LaTeX编辑器：TeXstudio,跨平台
 
 chrome插件：
+
 |插件|功能|
 |:--------:|:--------:|
 |lastpass|保存网站密码，只用记住主密码|
