@@ -72,7 +72,17 @@ executor的keywords设置很简单，在setting里面Add Keywords就可以设置
 	![vistaswitcher](/images/blog/2016/01-20/vistaswitcher.png)
 
 ###推荐软件
+
 LaTeX编辑器：TeXstudio,跨平台
+
+chrome插件：
+|插件|功能|
+|:--------:|:--------:|
+|lastpass|保存网站密码，只用记住主密码|
+|cVim|用vim的方式使用浏览器，比vimium更酷|
+|广告终结者|屏蔽广告|
+|Markdown Here|用markdown写一封漂亮的邮件|
+|Octotree|Code tree for GitHub and GitLab|
 
 ---
 ##提升颜值
