@@ -77,6 +77,8 @@ LaTeX编辑器：TeXstudio,跨平台
 
 翻墙：lantern，免费；shadowsocks, ss-link.com
 
+播放器：Potplayer，加上下面百度网盘里面分享的Zune皮肤更显酷炫。
+
 chrome插件：
 
 |插件|功能|
@@ -94,7 +96,7 @@ chrome插件：
 
 **美化任务栏**
 
-[这里是分享的免注册版本，直接安装即可。在分享的链接中还有其他软件，不过还是大家尽可能的自行下载最新可用版本获得更好的体验](http://pan.baidu.com/s/1jHoTxGi) 密码: n7nj
+[这里是分享的免注册版本，直接安装即可。在分享的链接中还有其他软件，不过还是大家尽可能的自行下载最新可用版本获得更好的体验](http://pan.baidu.com/share/home?uk=1731296444&view=share#category/type=0)
 
 win10的任务栏实在是不好看，黑色的一条杠横在那儿。用了startisback以后可以将任务栏设置为透明状态，并且还可以设置开始菜单。
 可能安装以后有人会找不到程序在哪里，用上面的everything搜索startisback就会发现StartIsBackCfg.exe,运行它就会进入到设置页面。
