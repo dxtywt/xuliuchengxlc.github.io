@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 打造一个漂亮、简单、高效的Windows环境
-tags: [others, windows] 
+tags: Windows
 disqus: y
 ---
 
