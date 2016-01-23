@@ -387,3 +387,8 @@ code.has-jax {
     font-size: 100%; 
     background:inherit; 
     border: inherit;}
+
+.tags{
+    background-color:red;
+    font-size:10px;
+}
