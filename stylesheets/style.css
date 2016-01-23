@@ -389,6 +389,16 @@ code.has-jax {
     border: inherit;}
 
 .tags {
-    background-color:red;
-    margin-left:20px;
+    margin-left: 10px;
+        border-width: thick;
+            font-family: "Helvetica Neue", Helvetica, "Open Sans", sans-serif;
+                font-weight: 400;
+                    font-size: 75%;
+                        line-height: 180%;
+                            padding: 0 .5rem 0 .5rem;
+                                border-radius: 5px;
+                                    background: #e7f2f7;
+                                        color: #6a9fb5;
+                                            display: inline-block;
+                                                margin: 0px 8px 0;
 }
