@@ -11,29 +11,36 @@ disus: y
 
 ## LaTeX概览
 
-来自维基百科：  
+摘自维基百科：  
 
 >LaTeX, 是一种基于TEX的排版系统，由美国电脑学家莱斯利·兰伯特在20世纪80年代初期开发，利用这种格式，即使用户没有排版和程序设计的知识也可以充分发挥由TEX所提供的强大功能，能在几天，甚至几小时内生成很多具有书籍质量的印刷品。对于生成复杂表格和数学公式，这一点表现得尤为突出。因此它非常适用于生成高印刷质量的科技和数学类文档。这个系统同样适用于生成从简单的信件到完整书籍的所有其他种类的文档。
 
 简单点说：LaTeX基于TeX，目的主要是为了方便排版。在学术界的论文，尤其是数学、计算机等学科论文都是由LaTeX编写。
 
-我的一点理解：在稍微了解一点LaTeX后，你会发现LaTeX的工作方式类似HTML，都是由源文件（.tex or .html）经由引擎（TeX or browser）渲染产生最终效果（得到PDF文件 或者 生成页面）。两者极其神似，包括语法规则与工作方式。所以呢，与HTML一样，LaTeX其实很简单，不过是调整样式等可能会很麻烦，因为会涉及到很多内容。
+我的一点理解：
+在稍微了解一点LaTeX后，你会发现LaTeX的工作方式类似HTML，都是由源文件（.tex or .html）经由引擎（TeX or browser）渲染产生最终效果（得到PDF文件 或者 生成页面）。两者极其神似，包括语法规则与工作方式。所以呢，与HTML一样，LaTeX其实很简单，不过是调整样式等可能会很麻烦，因为会涉及到很多内容。
 
 ## 安装配置LaTeX
 
-很多傻傻的人在学一些东西的时候死在了**配置环境**上。  
-LaTeX配置环境很简单，只需两步即可：
+LaTeX配置环境很简单，只需2步即可：
 
 1. 根据平台选择安装TeX,建议选择最全功能最多的版本。
     - Windows
-        CTex
+        [CTeX套装](http://www.ctex.org/CTeXDownload)
     - Mac
-        mikTeX
+        [MacTeX](http://tug.org/mactex/)
 
 2. 选择一个合适的LaTeX编辑器。
 
-在安装好LaTeX环境以后，通常都会有一个自带的编辑器，比如CTex的win edit, Mac下的tex shop, 不过功能并不强大，tex shop就好比Windows记事本，只有一些基本的文本编辑功能。在这里推荐一个我目前觉得还不错的LaTeX编辑器：**TeXstudio**。
+	在安装好LaTeX环境以后，通常都会有一个自带的编辑器，比如CTex的WinEdt, Mac下的TeXShop, 不过功能并不强大，就好比Windows记事本，只有一些基本的文本编辑功能。在这里推荐一个我目前觉得还不错的LaTeX编辑器：**TeXstudio**。
 
 ## 开始第一个LaTeX文档
+打开TeXstudio，新建一个TeX文件，写入以下内容：
 
+    ```
+\documentclass{article}
+\begin{document}
+	\LaTeX
+\end{document}
+	```
 
