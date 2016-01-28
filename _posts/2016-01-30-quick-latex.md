@@ -43,5 +43,5 @@ LaTeX配置环境很简单，只需2步即可：
 	Here comes \LaTeX!
 \end{document}
 	```
-点击<code>F5</code>compile and view,即可看到效果。
+点击<code>F5</code>（默认快捷键）compile and view,即可看到效果。
 
