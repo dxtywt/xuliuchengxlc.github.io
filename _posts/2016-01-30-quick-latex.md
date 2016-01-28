@@ -40,7 +40,8 @@ LaTeX配置环境很简单，只需2步即可：
     ```
 \documentclass{article}
 \begin{document}
-	\LaTeX
+	Here comes \LaTeX!
 \end{document}
 	```
+点击<code>F5</code>compile and view,即可看到效果。
 
