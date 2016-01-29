@@ -2,7 +2,7 @@
 layout: post
 title: 教你LaTeX快速入门
 tags: LaTeX
-disus: y
+disqus: y
 ---
 
 对于理工科的学生来说，尤其是从研究生阶段开始，LaTeX应该会是日常中必不可少的科研工具。目前我并不是一个LaTeX高手，但至少应该算是已经入门LaTeX。所谓入门的要求至少应该是能够完成一些日常写作的要求，比如写个report什么的，遇到一些常见的问题能够Google并解决。
