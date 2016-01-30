@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My First Post
-tags: others
+tags: Others
 disqus: y
 ---
 
