@@ -37,7 +37,7 @@ executor的keywords设置很简单，在setting里面Add Keywords就可以设置
 
 | 快捷键 | 软件 |
 |--------|--------:|
-|  <code>ctrl</code> + 1      | chrome       |
+|  <code>ctrl</code> + 1      | Chrome       |
 |  <code>ctrl</code> + 2      | Firefox       |
 |  <code>ctrl</code> + 4      | 欧路词典 or 有道词典   |
 |  <code>ctrl</code> + 5      | 福昕阅读器       |
@@ -52,11 +52,11 @@ executor的keywords设置很简单，在setting里面Add Keywords就可以设置
 
 **增强文件资源管理器**
 
-与QTTabBar类似的还有一个非常好的软件clover，可惜在win10下面的表现实在是糟糕，频繁崩溃。
+与QTTabBar类似的还有一个非常好的软件clover，可惜在win10下面的表现实在是糟糕，频繁崩溃，期待更新。
 
 ###SumatraPDF
 
-**用类似vim的方式阅读pdf**，可以实现全键盘操作。
+**用类似vim的方式阅读pdf**，可以实现大部分全键盘操作。例如 jk 分别对应上下移动， / 对应查找。这也是CTeX套装里面自带的PDF阅读器。
 
 ###VistaSwitcher
 
@@ -82,13 +82,13 @@ LaTeX编辑器：TeXstudio,跨平台
 
 chrome插件：
 
-|插件       |功能                |
+|Chrome插件       |功能                |
 |:--------:|:--------:|
-|lastpass       |保存网站密码，只用记住主密码|
+|lastpass       |保存网站密码，只用记住主密码       |
 |cVim           |用vim的方式使用浏览器，比vimium更酷|
-|广告终结者      |屏蔽广告|
-|Markdown Here  |用markdown写一封漂亮的邮件|
-|Octotree       |Code tree for GitHub and GitLab|
+|广告终结者     |屏蔽广告                           |
+|Markdown Here  |用markdown写一封漂亮的邮件         |
+|Octotree       |Code tree for GitHub and GitLab    |
 
 ---
 ##提升颜值
