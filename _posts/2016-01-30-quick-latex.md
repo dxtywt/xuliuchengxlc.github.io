@@ -90,7 +90,7 @@ $$\int_a^b f(x) d(x)$$
 不同环境具体操作有所不同，下面介绍Windows与Mac平台。
 
 - Windows  
-Windows平台比较简单，引入CJK宏包并应用CJK环境即可。LaTeX将<code>\begin{...}content\end{...}</code>称为...环境。在对应环境中产生对应效果。
+Windows平台比较简单，引入CJK宏包并应用CJK环境即可。  LaTeX将<code>\begin{...}content\end{...}</code>称为...环境。在对应环境中产生对应效果。
 ![winedt](/images/blog/2016/01-30/winedt.png)
 - Mac  
 osx10.11.3,Mac稍微多几个操作，除了引入xeCJK宏包，还要设置字体名称。  
