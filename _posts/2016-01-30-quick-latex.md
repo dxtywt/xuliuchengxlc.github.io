@@ -15,7 +15,7 @@ disqus: y
 
 摘自维基百科：  
 
->LaTeX, 是一种基于TEX的排版系统，由美国电脑学家莱斯利·兰伯特在20世纪80年代初期开发，利用这种格式，即使用户没有排版和程序设计的知识也可以充分发挥由TEX所提供的强大功能，能在几天，甚至几小时内生成很多具有书籍质量的印刷品。对于生成复杂表格和数学公式，这一点表现得尤为突出。因此它非常适用于生成高印刷质量的科技和数学类文档。这个系统同样适用于生成从简单的信件到完整书籍的所有其他种类的文档。
+    >LaTeX, 是一种基于TEX的排版系统，由美国电脑学家莱斯利·兰伯特在20世纪80年代初期开发，利用这种格式，即使用户没有排版和程序设计的知识也可以充分发挥由TEX所提供的强大功能，能在几天，甚至几小时内生成很多具有书籍质量的印刷品。对于生成复杂表格和数学公式，这一点表现得尤为突出。因此它非常适用于生成高印刷质量的科技和数学类文档。这个系统同样适用于生成从简单的信件到完整书籍的所有其他种类的文档。
 
 简单点说：LaTeX基于TeX，目的主要是为了方便排版。在学术界的论文，尤其是数学、计算机等学科论文都是由LaTeX编写。
 
@@ -40,12 +40,12 @@ LaTeX配置环境很简单，只需2步即可：
 
 打开TeXstudio，新建一个TeX文件，写入以下内容：
 
-```
-    \documentclass{article}
-    \begin{document}
-	Here comes \LaTeX!
-    \end{document}
-```
+  ```
+        \documentclass{article}
+        \begin{document}
+	      Here comes \LaTeX!
+        \end{document}
+  ```
 点击<code>F5</code>（默认快捷键）compile and view,即可看到效果。
 ![TeXstudio](/images/blog/2016/01-30/screen.png)
 
@@ -90,7 +90,7 @@ $$\int_a^b f(x) d(x)$$
 不同环境具体操作有所不同，下面介绍Windows与Mac平台。
 
 - Windows  
-Windows平台比较简单，引入CJK宏包并应用CJK环境即可。LaTeX将<code>\begin{...}content\end{...}</code>称为环境。
+Windows平台比较简单，引入CJK宏包并应用CJK环境即可。LaTeX将<code>\begin{...}content\end{...}</code>称为...环境。在对应环境中产生对应效果。
 ![winedt](/images/blog/2016/01-30/winedt.png)
 - Mac  
 osx10.11.3,Mac稍微多几个操作，除了引入xeCJK宏包，还要设置字体名称。  
