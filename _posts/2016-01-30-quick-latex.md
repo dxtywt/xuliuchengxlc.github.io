@@ -40,12 +40,12 @@ LaTeX配置环境很简单，只需2步即可：
 
 打开TeXstudio，新建一个TeX文件，写入以下内容：
 
-```
-    \documentclass{article}
-    \begin{document}
-	Here comes \LaTeX!
-    \end{document}
-```
+  ```
+        \documentclass{article}
+        \begin{document}
+	      Here comes \LaTeX!
+        \end{document}
+  ```
 点击<code>F5</code>（默认快捷键）compile and view,即可看到效果。
 ![TeXstudio](/images/blog/2016/01-30/screen.png)
 
@@ -90,7 +90,9 @@ $$\int_a^b f(x) d(x)$$
 不同环境具体操作有所不同，下面介绍Windows与Mac平台。
 
 - Windows  
-Windows平台比较简单，引入CJK宏包并应用CJK环境即可。LaTeX将<code>\begin{...}content\end{...}</code>称为环境。
+Windows平台比较简单，引入CJK宏包并应用CJK环境即可。    
+
+LaTeX将<code>\begin{...}content\end{...}</code>称为...环境。在对应环境中产生对应效果。
 ![winedt](/images/blog/2016/01-30/winedt.png)
 - Mac  
 osx10.11.3,Mac稍微多几个操作，除了引入xeCJK宏包，还要设置字体名称。  
