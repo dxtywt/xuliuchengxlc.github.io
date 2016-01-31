@@ -5,7 +5,7 @@ title: About
 
 Welcome to [Liucheng Xu's blog](http://xuliuchengxlc.github.io), which is almost about computer science  as well as a little bit of my daily life.
 
-Whenever you find anything wrong or inapproprite with my posts, please email to me: xuliuchengxlc@gmail.com.
+Whenever you find something wrong or inapproprite with my posts, please email to me: xuliuchengxlc@gmail.com.
 
 You have a nice day. ♥
 
