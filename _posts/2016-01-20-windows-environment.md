@@ -72,13 +72,15 @@ executor的keywords设置很简单，在setting里面Add Keywords就可以设置
 
 	![vistaswitcher](/images/blog/2016/01-20/vistaswitcher.png)
 
-###推荐软件
+###其他推荐软件
 
-LaTeX编辑器：TeXstudio,跨平台
+LaTeX编辑器：TeXstudio,跨平台。
 
-翻墙：lantern，免费；shadowsocks, ss-link.com
+翻墙：lantern，开源免费，在[GitHub](https://github.com/getlantern/lantern)下载即可；shadowsocks, ss-link.com。
 
-播放器：Potplayer，加上下面百度网盘里面分享的Zune皮肤更显酷炫。
+影音播放器：Potplayer，加上下面百度网盘里面分享的Zune皮肤更显酷炫。
+
+词典：有道词典，我喜欢的是它里面的柯林斯词典，但是功能稍显不足，不过胜在免费。欧陆词典，亮点在于它的**可下载词库**,里面有什么词根辞源记忆词典，GRE词汇等等很多词库我觉得很不错。移动端的这些词库是可以直接下载的，但是桌面应用需要购买才能够下载可扩充词库。每次购买可以激活3台电脑。
 
 chrome插件：
 
