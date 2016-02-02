@@ -43,11 +43,11 @@ LaTeX配置环境很简单，只需2步即可：
 
 打开TeXstudio，新建一个TeX文件，写入以下内容：
 
-```
-    \documentclass{article}
-    \begin{document}
-      Here comes \LaTeX!
-    \end{document}
+``` tex
+ \documentclass{article}
+ \begin{document}
+ Here comes \LaTeX!
+ \end{document}
 ```
 
 点击<code>F5</code>（默认快捷键）compile and view,即可看到效果。
@@ -66,7 +66,7 @@ LaTeX配置环境很简单，只需2步即可：
 **学会书写LaTeX数学公式，只需要了解4个概念：**
 
 1. 数学公式环境。除了下面两个，还有其他表示方法，这里仅介绍最简单的方式。所谓行间公式是指单独占据一行，比如  
-$$\int_a^b f(x) d(x)$$  
+$$ \int_a^b f(x) d(x) $$  
 而行内公式是指公式嵌入一行内容当中，比如接下来概念2中的求和符号。
 	- 行间公式  
 	两个美元符号：<code>$$行间公式$$</code>
