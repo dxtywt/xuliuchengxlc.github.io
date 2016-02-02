@@ -5,6 +5,9 @@ tags: LaTeX
 disqus: y
 ---
 
+* TOC
+{:toc}
+
 对于理工科的学生来说，尤其是从研究生阶段开始，LaTeX应该会是日常中必不可少的科研工具。目前我并不是一个LaTeX高手，但至少应该算是已经入门LaTeX。所谓入门的要求至少应该是能够完成一些日常写作的要求，比如写个report什么的，遇到一些常见的问题能够Google并解决。
 
 此篇为写给一些想快速入门LaTeX的朋友,本人学识与能力有限，以下内容如有纰漏或错误，欢迎来信。
@@ -40,12 +43,13 @@ LaTeX配置环境很简单，只需2步即可：
 
 打开TeXstudio，新建一个TeX文件，写入以下内容：
 
-  ```
-        \documentclass{article}
-        \begin{document}
-	      Here comes \LaTeX!
-        \end{document}
-  ```
+```
+    \documentclass{article}
+    \begin{document}
+      Here comes \LaTeX!
+    \end{document}
+```
+
 点击<code>F5</code>（默认快捷键）compile and view,即可看到效果。
 ![TeXstudio](/images/blog/2016/01-30/screen.png)
 
@@ -62,7 +66,9 @@ LaTeX配置环境很简单，只需2步即可：
 **学会书写LaTeX数学公式，只需要了解4个概念：**
 
 1. 数学公式环境。除了下面两个，还有其他表示方法，这里仅介绍最简单的方式。所谓行间公式是指单独占据一行，比如
-$$\int_a^b f(x) d(x)$$
+		$$
+        \int_a^b f(x) d(x)
+        $$
 而行内公式是指公式嵌入一行内容当中，比如接下来概念2中的求和符号。
 	- 行间公式  
 	两个美元符号：<code>$$行间公式$$</code>
