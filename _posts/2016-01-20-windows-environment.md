@@ -17,16 +17,17 @@ disqus: y
 ![win屏幕截图](/images/blog/2016/01-20/win-screen.png)
 
 ---
-##提高效率
 
-###Everything
+## 提高效率
+
+### Everything
 
 **快速检索文件**
 
 相信很多人都知道everything，当我们需要找到某个文件时非它莫属，功能十分强大。  
 搜索几乎是秒出结果，堪比mac下的spotlight，而且支持正则表达式搜索。
 
-###Executor
+### Executor
 
 **自定义快捷键**,快速启动程序。
 
@@ -48,17 +49,17 @@ executor的keywords设置很简单，在setting里面Add Keywords就可以设置
 
 另外关于everything的快捷键设置有些不同，不能勾选only one instance running选项，否则快捷键无效。
 
-###QTTabBar
+### QTTabBar
 
 **增强文件资源管理器**
 
 与QTTabBar类似的还有一个非常好的软件clover，可惜在win10下面的表现实在是糟糕，频繁崩溃，期待更新。
 
-###SumatraPDF
+### SumatraPDF
 
 **用类似vim的方式阅读pdf**，可以实现大部分全键盘操作。例如 jk 分别对应上下移动， / 对应查找。这也是CTeX套装里面自带的PDF阅读器。
 
-###VistaSwitcher
+### VistaSwitcher
 
 **简化任务切换窗口**
 
@@ -72,7 +73,7 @@ executor的keywords设置很简单，在setting里面Add Keywords就可以设置
 
 	![vistaswitcher](/images/blog/2016/01-20/vistaswitcher.png)
 
-###其他推荐软件
+### 其他推荐软件
 
 LaTeX编辑器：TeXstudio,跨平台。
 
@@ -93,9 +94,9 @@ chrome插件：
 |Octotree       |Code tree for GitHub and GitLab    |
 
 ---
-##提升颜值
+## 提升颜值
 
-###StartIsBack
+### StartIsBack
 
 **美化任务栏**
 
@@ -110,14 +111,14 @@ win10的任务栏实在是不好看，黑色的一条杠横在那儿。用了sta
   
 	![startisback](/images/blog/2016/01-20/startisback.png)
 
-###NetSpeedMonitor
+### NetSpeedMonitor
 
 **在任务栏显示网速**
 
 用这个软件主要是想关闭什么管家、杀毒之类的加速球，嫌它碍事。  
 台式机有32G内存，所以一般不用担心内存占用的问题。实在有需要的时候，<code>Ctrl</code>+<code>shift</code>+<code>ESC</code>调出资源管理器也就是了。因此只用看看网速就安心了。
 
-###MacType
+### MacType
 
 **美化Windows字体**
 
