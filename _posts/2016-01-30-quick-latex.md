@@ -50,7 +50,7 @@ LaTeX配置环境很简单，只需2步即可：
  \end{document}
 ```
 
-点击<code>F5</code>（默认快捷键）compile and view,即可看到效果。
+点击 <code>F5</code>（默认快捷键）compile and view,即可看到效果。
 ![TeXstudio](/images/blog/2016/01-30/screen.png)
 
 至此，一个极简易的LaTeX文档已经完成。以后的内容不过是多用多查，熟能生巧。  

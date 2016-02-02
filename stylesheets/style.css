@@ -314,7 +314,8 @@ section.post, section > p {
     position: relative;
     overflow: hidden;
     display: block;
-    padding: 15px 60px; }
+    padding: 15px 60px; 
+    margin: 5px 60px 5px 60px;}
     section.post blockquote:hover, section > p blockquote:hover {
       color: #454545; }
     section.post blockquote:hover:before, section > p blockquote:hover:before {
