@@ -362,6 +362,11 @@ pre {
   border-radius: 4px;
   
 }
+.highlight {
+    background: #FFFAF0;
+    padding: 2px 10px 3px;
+    border-radius: 4px;
+}
 code {
   font-size: 16px;
   padding: 2px 4px 3px;
