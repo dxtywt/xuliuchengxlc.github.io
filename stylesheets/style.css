@@ -19,8 +19,7 @@ body {
   body, body * {
     -webkit-font-smoothing: antialiased; }
 
-img {
-  border: none; }
+ 
 
 table {
     font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
@@ -39,6 +38,9 @@ th{
     padding-bottom:4px;
     background-color:#A7C942;
     color:#ffffff;
+}
+ol, ul {
+    padding-left:85px;
 }
 #go-back-home {
   margin: 40px 0 0; }
@@ -265,9 +267,12 @@ section.post {
   padding: 0; }
   section.post > * {
     padding: 0 60px; }
+    section.post ul, section.post ol{
+      padding-left: 85px;
+    }
   section.post ul ul, section.post ul ol, section.post ol ul, section.post ol ol {
     margin-left: 20px;
-    padding: 0; }
+    padding-left: 15px; }
   section.post h1 {
     text-transform: uppercase;
     text-align: center;
@@ -344,6 +349,7 @@ pre {
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
+/* code style */
 code {
   font-size: 16px;
   color: #eee;
@@ -358,7 +364,8 @@ code {
   *vertical-align: auto; }
 
 img {
-  max-width: 100%; }
+  max-width: 100%;
+  border: none;  }
   img.half {
     width: 50%; }
 
