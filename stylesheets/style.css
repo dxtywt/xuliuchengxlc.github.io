@@ -364,8 +364,7 @@ pre {
 }
 code {
   font-size: 16px;
-  color: #eee;
-  background: #39382e;
+  background: #fffaf0;
   padding: 2px 4px 3px;
   border-radius: 2px;
   line-height: 1.3em;
@@ -375,7 +374,7 @@ code {
   *display: inline;
   *vertical-align: auto; }
   .highlight{
-    
+    background: #fffaf0;
   }
 
 img {
