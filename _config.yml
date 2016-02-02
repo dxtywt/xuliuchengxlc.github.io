@@ -27,6 +27,6 @@ links:
 highlighter:      rouge
 markdown:         kramdown
 kramdown:
-  input: GFM
-  auto_ids: true
-  auto_id_prefix:'id-'
+  input:    GFM
+  auto_ids:    true
+  auto_id_prefix:    'id-'
