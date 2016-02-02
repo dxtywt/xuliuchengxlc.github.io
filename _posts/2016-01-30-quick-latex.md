@@ -81,11 +81,11 @@ $$ \int_a^b f(x) d(x) $$
 
 | LaTeX命令 | 预览效果 |
 |:--------:|:--------:|
-|  <code>$x_i$</code>      |  $x_i$      |
-|<code>$x^2$</code>|$x^2$|
-|<code>$x^ {y^z}$</code>|$x^{y^z}$|
-|<code>$\int_a^b f(x)$</code>|$\int_a^bf(x)$|
-|<code>\frac ab</code>|$\frac ab$|
+|  <code>$ x_i $</code>      |  $x_i$      |
+|<code>$ x^2 $</code>|$x^2$|
+|<code>$ x^ {y^z} $</code>|$x^{y^z}$|
+|<code>$ \int_a^b f(x)$</code>|$\int_a^bf(x)$|
+|<code>$ \frac ab $</code>|$\frac ab$|
 
 有了这几个概念以后，再动手写几个就大概懂了。无论多么复杂的公式都是有一个个简单的东西构成。
 
