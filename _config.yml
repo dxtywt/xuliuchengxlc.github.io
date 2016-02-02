@@ -24,7 +24,7 @@ links:
   - name:         Zhihu
     url:          https://www.zhihu.com/people/simple_the_best
     external:     true
-highlighter:      pygments
+highlighter:      rogue
 markdown:         kramdown
 kramdown:
     extensions:
