@@ -24,9 +24,8 @@ links:
   - name:         Zhihu
     url:          https://www.zhihu.com/people/simple_the_best
     external:     true
-highlighter:      rouge
+
 markdown:         kramdown
 kramdown:
   input:    GFM
-  auto_ids:    true
-  auto_id_prefix:    'id-'
+
