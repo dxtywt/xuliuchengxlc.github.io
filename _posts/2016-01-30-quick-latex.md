@@ -43,12 +43,12 @@ LaTeX配置环境很简单，只需2步即可：
 
 打开TeXstudio，新建一个TeX文件，写入以下内容：
 
-{% highlight tex %}
+``` tex
  \documentclass{article}
  \begin{document}
  Here comes \LaTeX!
  \end{document}
-{% highlight %}
+```
 
 点击 <code>F5</code>（默认快捷键）compile and view,即可看到效果。
 ![TeXstudio](/images/blog/2016/01-30/screen.png)
