@@ -105,3 +105,14 @@ osx10.11.3,Mac稍微多几个操作，除了引入xeCJK宏包，还要设置字�
 如果没有显示字体名称，请<code>command+I</code>或在显示-->显示字体信息即可。
 ![font](/images/blog/2016/01-30/font.png)
 ![macchinese](/images/blog/2016/01-30/MacChinese.png)
+
+### 3.3 几个LaTeX相关很有用的网站
+
+- [Detexify LaTeX handwritten symbol recognition](http://detexify.kirelabs.org/classify.html).
+
+	通过手写识别LaTeX符号，识别率很高。
+	尤其是当看到一个符号却不知道其LaTeX命令的时候它很有用。只要画出记忆中符号的样子，就会自动出现各种可能想要的表示方法。
+    
+- [LaTeX公式编辑器](http://zh.numberempire.com/texequationeditor/equationeditor.php)
+
+	对于书写LaTeX公式提供一点便利。
