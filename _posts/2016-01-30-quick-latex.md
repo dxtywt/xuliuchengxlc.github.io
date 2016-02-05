@@ -29,7 +29,8 @@ disqus: y
 
 LaTeX配置环境很简单，只需2步即可：
 
-1. 根据平台选择安装TeX,建议选择最全功能最多的版本。
+1. 根据平台选择一个TeX发行版进行安装,建议选择最全功能最多的版本。TeX发行版的概念相当于Linux及其发行版，Linux内核虽然只有一个，但是有很多基于内核的不同特色的Linux发行版，Ubuntu，Fedora等等不胜枚举。
+
     - Windows
         [CTeX套装](http://www.ctex.org/CTeXDownload)
     - Mac
@@ -37,7 +38,9 @@ LaTeX配置环境很简单，只需2步即可：
 
 2. 选择一个合适的LaTeX编辑器。
 
-	在安装好LaTeX环境以后，通常都会有一个自带的编辑器，比如CTex的WinEdt, Mac下的TeXShop, 不过功能并不强大，就好比Windows记事本，只有一些基本的文本编辑功能。在这里推荐一个我目前觉得还不错的LaTeX编辑器：**TeXstudio**。
+	在安装好LaTeX环境以后，通常都会有一个自带的编辑器，比如CTex的WinEdt, Mac下的TeXShop, 不过功能并不强大，就好比Windows记事本，只有一些基本的文本编辑功能。
+	
+	在这里推荐一个我目前觉得还不错的LaTeX编辑器：**TeXstudio**。我试过WinEdt，TeXnicle，不过都比不上TeXstudio。
 
 ## 3. 开始第一个LaTeX文档
 
