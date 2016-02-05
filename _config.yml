@@ -25,7 +25,6 @@ links:
     url:          https://www.zhihu.com/people/simple_the_best
     external:     true
 
-markdown:         kramdown
 kramdown:
   input:    GFM
   syntax_highlighter:    rouge
