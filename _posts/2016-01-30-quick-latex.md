@@ -14,7 +14,7 @@ disqus: y
 
 ---
 
-## 1. LaTeX概览
+## LaTeX概览
 
 摘自维基百科：  
 
@@ -25,7 +25,7 @@ disqus: y
 我的一点理解：
 在稍微了解一点LaTeX后，你会发现LaTeX的工作方式类似HTML，都是由源文件（.tex or .html）经由引擎（TeX or browser）渲染产生最终效果（得到PDF文件 或者 生成页面）。两者极其神似，包括语法规则与工作方式。所以呢，与HTML一样，LaTeX其实很简单，不过是调整样式等可能会很麻烦，因为会涉及到很多内容。
 
-## 2. 安装配置LaTeX
+## 安装配置LaTeX
 
 LaTeX配置环境很简单，只需2步即可：
 
@@ -42,7 +42,7 @@ LaTeX配置环境很简单，只需2步即可：
 	
 	在这里推荐一个我目前觉得还不错的LaTeX编辑器：**TeXstudio**。我试过WinEdt，TeXnicle，不过都比不上TeXstudio。
 
-## 3. 开始第一个LaTeX文档
+## 开始第一个LaTeX文档
 
 打开TeXstudio，新建一个TeX文件，写入以下内容：
 
@@ -59,7 +59,7 @@ LaTeX配置环境很简单，只需2步即可：
 至此，一个极简易的LaTeX文档已经完成。以后的内容不过是多用多查，熟能生巧。  
 记得找本LaTeX的书籍看一下，一来对于更为精细的知识做一个了解，二来可以作为工具书有问题的时候查询。
 
-### 3.1 LaTeX数学公式
+### LaTeX数学公式
 
 学习LaTeX的一大初衷其实是为了书写数学公式。  
 数学公式的练习始于markdown，因为很多markdown编辑器是支持LaTeX数学公式的，比如haroopad。那么不仅可以写出漂亮的公式，还能方便做笔记。
@@ -92,7 +92,7 @@ $$ \int_a^b f(x) d(x) $$
 
 有了这几个概念以后，再动手写几个就大概懂了。无论多么复杂的公式都是有一个个简单的东西构成。
 
-### 3.2 LaTeX中文支持
+### LaTeX中文支持
 
 不同环境具体操作有所不同，下面介绍Windows与Mac平台。
 
@@ -117,7 +117,7 @@ osx10.11.3,Mac稍微多几个操作，除了引入xeCJK宏包，还要设置字�
 ![font](/images/blog/2016/01-30/font.png)
 ![macchinese](/images/blog/2016/01-30/MacChinese.png)
 
-### 3.3 几个LaTeX相关很有用的网站
+### 几个LaTeX相关很有用的网站
 
 - [Detexify LaTeX handwritten symbol recognition](http://detexify.kirelabs.org/classify.html).
 
