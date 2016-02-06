@@ -100,12 +100,14 @@ $$ \int_a^b f(x) d(x) $$
 Windows平台比较简单，引入CJK宏包并应用CJK环境即可。    
 
 LaTeX将 
+
 ``` tex
 \begin{...}
    content
 \end{...}
 ```
-称为...环境。在对应环境中 content 产生对应效果。
+
+称为<code>...</code>环境。在对应环境中 content 产生对应效果。
 ![winedt](/images/blog/2016/01-30/winedt.png)
 
 - Mac  
