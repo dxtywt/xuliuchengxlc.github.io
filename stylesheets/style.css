@@ -344,9 +344,18 @@ section.post, section > p {
   section.post li p, section > p li p {
     margin-bottom: 5px; }
 
-.highlight {
-  margin: 0;
-  padding: 0; }
+.highlight { 
+  display: block;
+  padding: 9.5px;
+  margin: 0 0 10px;
+  font-size: 13px;
+  line-height: 1.42857143;
+  color: #333;
+  word-break: break-all;
+  word-wrap: break-word;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 4px;}
 
 pre {
   overflow-x: auto;
@@ -368,8 +377,7 @@ pre {
 code {
   font-size: 14px;
   font-family: monospace,courier;
-  color: #ffc1e0;
-  background: #3c3c3c;
+  background: #f5f5f5;
   padding: 2px 4px 3px;
   border-radius: 2px;
   line-height: 1.3em;
@@ -378,10 +386,6 @@ code {
   zoom: 1;
   *display: inline;
   *vertical-align: auto; }
-  .highlight{
-    background: #3c3c3c;
-    border-radius: 4px;
-  }
 
 img {
   max-width: 100%;
