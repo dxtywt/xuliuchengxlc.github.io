@@ -117,7 +117,7 @@ osx10.11.3,Mac稍微多几个操作，除了引入xeCJK宏包，还要设置字�
 ![font](/images/blog/2016/01-30/font.png)
 ![macchinese](/images/blog/2016/01-30/MacChinese.png)
 
-### 几个LaTeX相关很有用的网站
+### 几个LaTeX推荐网站
 
 - [Detexify LaTeX handwritten symbol recognition](http://detexify.kirelabs.org/classify.html).
 
