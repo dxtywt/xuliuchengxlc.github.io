@@ -47,6 +47,7 @@ ol, ul {
 /* toc style */
 ul#markdown-toc {
   font-size: 14px;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, Helvetica, STKaiti, SimSun, serif;
 }
 
 #go-back-home {
