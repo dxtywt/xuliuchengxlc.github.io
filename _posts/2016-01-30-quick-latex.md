@@ -111,9 +111,9 @@ LaTeX将
 ![winedt](/images/blog/2016/01-30/winedt.png)
 
 - Mac  
-osx10.11.3,Mac稍微多几个操作，除了引入xeCJK宏包，还要设置字体名称。  
-关于设置字体名称，spotlight输入zitice打开mac的字体册,从字体中选择一个，将其名称填入，如华文楷体的名称为STKaiti。  
-如果没有显示字体名称，请<code>command+I</code>或在显示-->显示字体信息即可。
+系统为osx 10.11.3, Mac添加中文支持稍微多几个操作，除了引入xeCJK宏包，还要设置字体名称。  
+关于设置字体名称，spotlight输入 zitice 打开 mac 的字体册,从字体中选择一个，将其名称填入，如华文楷体的名称为 STKaiti 。  
+如果没有显示字体名称，请 <code>command+I</code> 或在显示-->显示字体信息即可。
 ![font](/images/blog/2016/01-30/font.png)
 ![macchinese](/images/blog/2016/01-30/MacChinese.png)
 
