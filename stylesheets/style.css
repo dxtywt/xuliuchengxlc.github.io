@@ -12,7 +12,7 @@ html, body {
 body {
   background: #f9f9f9;
   color: #303030;
-  font-family:"lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  font: 14px/1.62  "PT Serif", Georgia, Cambria, "WenQuanYi Micro Hei", "Hiragino Sans GB", "Microsoft YaHei", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-size: 16px;
   line-height: 150%;
