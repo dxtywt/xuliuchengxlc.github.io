@@ -32,8 +32,10 @@ LaTeX配置环境很简单，只需2步即可：
 1. 根据平台选择一个TeX发行版进行安装,建议选择最全功能最多的版本。TeX发行版的概念相当于Linux及其发行版，Linux内核虽然只有一个，但是有很多基于内核的不同特色的Linux发行版，Ubuntu，Fedora等等不胜枚举。
 
     - Windows
+    
         [CTeX套装](http://www.ctex.org/CTeXDownload)
     - Mac
+    
         [MacTeX](http://tug.org/mactex/)
 
 2. 选择一个合适的LaTeX编辑器。
