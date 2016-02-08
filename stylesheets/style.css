@@ -1,12 +1,12 @@
 h1 {
    font-size:200%; 
    font-family: "Palatino Linotype", "Book Antiqua", Palatino, Helvetica, STKaiti, SimSun, serif;
-   color: #666666;
+   color: #444444;
 }
 h2, h3, h4, h5, strong, b {
   font-weight: 700;
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, Helvetica, STKaiti, SimSun, serif;
-  color: #666666;
+  color: #444444;
 }
 
 html, body {
