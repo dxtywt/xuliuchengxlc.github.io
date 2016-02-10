@@ -132,3 +132,7 @@ LaTeX将
 - [LaTeX公式编辑器](http://zh.numberempire.com/texequationeditor/equationeditor.php)
 
 	对于书写LaTeX公式提供一点便利。
+	
+- [在线LaTeX编辑器shareLaTeX](https://cn.sharelatex.com/)
+
+  好处就是不用本地搭建环境，直接在线操作。还有很多LaTeX模板可供选择。
