@@ -31,6 +31,9 @@ LaTeX配置环境很简单，只需2步即可：
 
 1. 根据平台选择一个TeX发行版进行安装,建议选择最全功能最多的版本。TeX发行版的概念相当于Linux及其发行版，Linux内核虽然只有一个，但是有很多基于内核的不同特色的Linux发行版，Ubuntu，Fedora等等不胜枚举。
 
+    - TeXLive for three platforms
+    
+        [TeXLive](https://www.tug.org/texlive/)
     - Windows
     
         [CTeX套装](http://www.ctex.org/CTeXDownload)
@@ -129,3 +132,7 @@ LaTeX将
 - [LaTeX公式编辑器](http://zh.numberempire.com/texequationeditor/equationeditor.php)
 
 	对于书写LaTeX公式提供一点便利。
+	
+- [在线LaTeX编辑器shareLaTeX](https://cn.sharelatex.com/)
+
+  好处就是不用本地搭建环境，直接在线操作。还有很多LaTeX模板可供选择。
