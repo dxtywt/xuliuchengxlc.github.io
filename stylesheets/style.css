@@ -278,7 +278,7 @@ section.post {
   section.post > * {
     padding: 0 60px; }
     section.post ul, section.post ol{
-      padding-left: 85px;
+      padding-left: 95px;
     }
   section.post ul ul, section.post ul ol, section.post ol ul, section.post ol ol {
     margin-left: 20px;

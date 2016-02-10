@@ -41,8 +41,8 @@ This is *red*{: style="color: red"}.
 |``行内代码|`行内代码`|
 |超链接|[homepage](http://xuliuchengxlc.github.io)|
 
-- 插入图片
-![屏幕截图](/images/blog/2016/01-14/screen.png)
+- 插入svg
+![屏幕截图](/images/blog/2016/01-14/vowel.svg)
 
 - 引用
 
