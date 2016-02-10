@@ -1,8 +1,6 @@
 ---
-layout: post
 title: My First Post
 tags: Others
-disqus: y
 ---
 
 本博客初次建立的时间为2016年1月初，当时采用的 markdown engine 是 redcarpet。但是Github pages自2016年5月1号起将仅支持kramdown，故将redcarpet修改为kramdown.本文的主要作用为测试最终渲染效果。
