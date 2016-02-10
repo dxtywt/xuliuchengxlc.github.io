@@ -42,7 +42,7 @@ This is *red*{: style="color: red"}.
 |超链接|[homepage](http://xuliuchengxlc.github.io)|
 
 - 插入图片
-![屏幕截图](/images/blog/2016/01-14/screen.png)
+![屏幕截图](/images/scribble-old.png)
 
 - 引用
 
