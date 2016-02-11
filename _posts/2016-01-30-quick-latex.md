@@ -79,14 +79,15 @@ LaTeX配置环境很简单，只需2步即可：
     在行文中，使用<code>$ ... $</code>可以插入行内公式，使用<code>\[ ... \]</code>可以插入行间公式，如果需要对行间公式进行编号，可以使用equation环境：
 
     ``` tex
-      \begin{equation}
-      …
-      \end{equation}
+    \begin{equation}
+    …
+    \end{equation}
     ```
     
     行内公式也可以使用<code>\(...\)</code>来插入，略嫌麻烦。无编号的行间公式也可以使用<code>$$ ... $$</code>来插入，但是这样做会改变行文的默认行间距，不推荐。
 
-    在markdown中也可使用LaTeX数学公式。我习惯用下面两种方式：
+    如果在markdown中使用LaTeX数学公式，我习惯用下面两种方式：
+	    
 	    - 行间公式  
 	      <code>$$ 行间公式 $$</code>
 	    
