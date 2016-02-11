@@ -108,7 +108,7 @@ LaTeX配置环境很简单，只需2步即可：
 |<code>$ \int_a^b f(x)$</code>|$\int_a^bf(x)$|
 |<code>$ \frac ab $</code>|$\frac ab$|
 
-有了这几个概念以后，再动手写几个就大概懂了。无论多么复杂的公式都是有一个个简单的东西构成。
+有了这几个概念以后，再动手写几个就大概懂了。无论多么复杂的公式都是有一个个简单的东西构成。推荐一个网站：[MathJax basic tutorial ](http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference)
 
 ### LaTeX中文支持
 
