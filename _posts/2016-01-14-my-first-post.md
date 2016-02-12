@@ -48,3 +48,9 @@ This is *red*{: style="color: red"}.
 - 引用
 
 > It is our light, not our darkness that frightens us.
+
+- 代码高亮
+
+``` java
+System.out.println("hello");
+```

@@ -56,6 +56,9 @@
         $("ul.posts li ").mouseout(function(){
                 $(this).css("background-color","#FFFFFF");
                 });
+        $('pre code').each(function(i, block) {
+                        hljs.highlightBlock(block);                  
+                });
     });
 </script>
 <script>
