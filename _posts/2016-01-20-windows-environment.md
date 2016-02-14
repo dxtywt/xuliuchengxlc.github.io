@@ -22,6 +22,7 @@ disqus: y
 ---
 
 ## 提高效率
+---
 
 ### Everything
 
@@ -96,9 +97,8 @@ chrome插件：
 |Markdown Here  |用markdown写一封漂亮的邮件         |
 |Octotree       |Code tree for GitHub and GitLab    |
 
----
-
 ## 提升颜值
+---
 
 ### StartIsBack
 

@@ -8,21 +8,24 @@ disqus: y
 {:toc}
 
 ## git 常用命令速查表
+---
 
 ![git常用命令速查表](/images/blog/2016/02-14/Git常用命令.jpg)
 
 [Pro git book](https://git-scm.com/book/zh/v2) 里面的内容应该是足够日常使用了，也是查阅的好地方。
 
 ## git 常见场景下的用法
+---
 
 ### 撤销修改
+
 
 ### 版本回退
 版本回退大致分为2种情况:
 1：一切操作都还停留在本地仓库，<code>add</code> --> <code>commit</code>后并未 <code>push</code> 推送到远端；
 2：已经执行 <code>push</code> 操作将修改推送到远端。
 
-##### 尚未<code>push</code>
+#### 尚未<code>push</code>
  这种情况发生在你的本地代码仓库,可能在执行 add --> commit 以后发现代码有点问题,准备取消此次commit, 这时用到 <code>reset</code> 命令
 <code>git reset -- soft | -- mixed | -- hard</code>
 
@@ -46,7 +49,7 @@ git reset --hard HEAD^  //  回到上一个版本
 
  所以,这种情况你要使用下面的方式
 
-##### 已经<code>push</code>
+#### 已经<code>push</code>
 
 对于已经把代码push到线上仓库,你回退本地代码其实也想同时回退线上代码,回滚到某个指定的版本,线上,线下代码保持一致.你要用到下面的revert命令
 

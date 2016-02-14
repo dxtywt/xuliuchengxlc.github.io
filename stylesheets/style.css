@@ -248,10 +248,6 @@ a, .as-link {
       a.big-button.green:hover, .as-link.big-button.green:hover {
         background: #797; }
 
-hr {
-  border: 0;
-  border-bottom: 1px dotted #CCC;
-  margin: 25px 0; }
 
 ul.posts, ul.posts li {
   margin: 0;
@@ -397,6 +393,13 @@ img {
   border: none ;  }
   img.half {
     width: 50%; }
+
+section.post hr {
+  border: 0;
+  border-bottom: 2px solid #CCC;
+  margin: -20px 60px 0;
+  width:72%; 
+}
 
 .signoff {
   margin-top: 30px; }
