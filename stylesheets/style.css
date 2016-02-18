@@ -8,6 +8,12 @@ h2, h3, h4, h5, strong, b {
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, Helvetica, STKaiti, SimSun, serif;
   color: #444444;
 }
+h3{
+  margin-bottom: -12px;
+}
+h4{
+  margin-bottom: -16px;
+}
 
 html, body {
   height: 100%; }
@@ -48,8 +54,13 @@ ol, ul {
 }
 /* toc style */
 ul#markdown-toc {
-  font-size: 14px;
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, Helvetica, STKaiti, SimSun, serif;
+  font-size: 0.9em;
+    display: inline-block;
+    background: #f8f8f8;
+    border-radius: 5px;
+    border: 1px solid #e5e5e5;
+    padding: 0.5em 1em 0.5em 2em;
+    margin-left: 60px;
 }
 
 #go-back-home {
@@ -180,7 +191,7 @@ footer {
 
 a, .as-link {
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, Helvetica, STKaiti, SimSun, serif;
-  font-size: 18px;
+  font-size: 16px;
   text-decoration: none;
   color: #269;
   line-height: 1.4em;
