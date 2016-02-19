@@ -121,7 +121,7 @@ Windows平台比较简单，引入CJK宏包并应用CJK环境即可。
 
     LaTeX将 
 
-    ``` tex
+    ``` 
     \begin{...}
     content
 \end{...}
