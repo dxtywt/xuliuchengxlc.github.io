@@ -53,10 +53,10 @@ LaTeX配置环境很简单，只需2步即可：
 打开TeXstudio，新建一个TeX文件，写入以下内容：
 
 ``` tex
- \documentclass{article}
- \begin{document}
+\documentclass{article}
+\begin{document}
  Here comes \LaTeX!
- \end{document}
+\end{document}
 ```
 
 点击 <code>F5</code>（默认快捷键）compile and view,即可看到效果。
@@ -81,9 +81,9 @@ LaTeX配置环境很简单，只需2步即可：
     在行文中，使用<code>$ ... $</code>可以插入行内公式，使用<code>\[ ... \]</code>可以插入行间公式，如果需要对行间公式进行编号，可以使用equation环境：
 
     ``` 
-    \begin{equation}
-    …
-    \end{equation}
+     \begin{equation}
+     ......
+     \end{equation}
     ```
     
     行内公式也可以使用<code>\(...\)</code>来插入，略嫌麻烦。无编号的行间公式也可以使用<code>$$ ... $$</code>来插入，但是这样做会改变行文的默认行间距，不推荐。
@@ -104,13 +104,13 @@ LaTeX配置环境很简单，只需2步即可：
 
 | LaTeX命令 | 预览效果 |
 |:--------:|:--------:|
-|  <code>$ x_i $</code>      |  $x_i$      |
+|<code>$ x_i $</code>      |  $x_i$      |
 |<code>$ x^2 $</code>|$x^2$|
 |<code>$ x^ {y^z} $</code>|$x^{y^z}$|
 |<code>$ \int_a^b f(x)$</code>|$\int_a^bf(x)$|
 |<code>$ \frac ab $</code>|$\frac ab$|
 
-有了这几个概念以后，再动手写几个就大概懂了。无论多么复杂的公式都是有一个个简单的东西构成。推荐一个网站：[MathJax basic tutorial ](http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference)
+有了这几个概念以后，再动手写几个就大概懂了。无论多么复杂的公式都是有一个个简单的东西构成。推荐一个网站：[MathJax basic tutorial ](http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference).
 
 ### LaTeX中文支持
 
@@ -119,15 +119,15 @@ LaTeX配置环境很简单，只需2步即可：
 - Windows  
 Windows平台比较简单，引入CJK宏包并应用CJK环境即可。    
 
-LaTeX将 
+    LaTeX将 
 
-``` tex
-\begin{...}
-   content
+    ``` tex
+    \begin{...}
+    content
 \end{...}
-```
+    ```
 
-称为<code>...</code>环境。在对应环境中 content 产生对应效果。
+    称为<code>...</code>环境。在对应环境中 content 产生对应效果。
 ![winedt](/images/blog/2016/01-30/winedt.png)
 
 - Mac  
