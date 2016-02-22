@@ -19,7 +19,7 @@ disqus: y
 下面就来介绍一下我的Windows环境配置，操作系统为Windows 10 64位.  
 ![win屏幕截图](/images/blog/2016/01-20/win-screen.png)
 
----
+
 
 ## 提高效率
 ---
