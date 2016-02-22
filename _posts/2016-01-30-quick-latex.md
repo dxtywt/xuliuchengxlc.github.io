@@ -8,7 +8,7 @@ disqus: y
 * TOC
 {:toc}
 
-对于理工科的学生来说，尤其是从研究生阶段开始，LaTeX应该会是日常中必不可少的科研工具。目前我并不是一个LaTeX高手，但至少应该算是已经入门LaTeX。所谓入门的要求至少应该是能够完成一些日常写作的要求，比如写个report什么的，遇到一些常见的问题能够Google并解决。
+对于理工科的学生来说，尤其是从研究生阶段开始，LaTeX应该会是日常中必不可少的科研工具。目前我并不是一个LaTeX高手，使用LaTeX的时间并不长，但应该算是已经入门LaTeX。所谓入门的要求至少应该是能够完成一些日常写作的要求，比如写个report什么的，遇到一些常见的问题能够Google并解决。
 
 此篇为写给一些想快速入门LaTeX的朋友,本人学识与能力有限，以下内容如有纰漏或错误，欢迎来信。
 
@@ -21,8 +21,27 @@ disqus: y
 
 简单点说：LaTeX基于TeX，目的主要是为了方便排版。在学术界的论文，尤其是数学、计算机等学科论文都是由LaTeX编写。
 
-我的一点理解：
-在稍微了解一点LaTeX后，你会发现LaTeX的工作方式类似HTML，都是由源文件（.tex or .html）经由引擎（TeX or browser）渲染产生最终效果（得到PDF文件 或者 生成页面）。两者极其神似，包括语法规则与工作方式。所以呢，与HTML一样，LaTeX其实很简单，不过是调整样式等可能会很麻烦，因为会涉及到很多内容。
+**我的一点理解：**  
+在稍微了解一点LaTeX后，你会发现LaTeX的工作方式类似web page，都是由源文件（.tex or .html）经由引擎（TeX or browser）渲染产生最终效果（得到PDF文件 或者 生成页面）。两者极其神似，包括语法规则与工作方式。所以呢，与HTML一样，LaTeX其实很简单。  
+
+一般的规范写法中都是在HTML文件中写入web page的结构内容，再由css控制页面生成的样式。当然你也可以选择在HTML直接写入样式内容，不过这并不提倡。同样，在LaTeX有着同样的情况，你可以在tex源文件中同时写入主题内容和样式，也可以内容与样式分离，以网络上流传广泛的[清华大学LaTeX模板](https://github.com/xueruini/thuthesis)为例,以.cls(class)结尾的thuthesis.cls便可看作是与css起到同样作用的样式文件。
+
+我第一次修改清华大学模板就是直接修改的thuthesis.cls与thuthesis.cfg文件。直接从ins和dtx文件开始做的话要花费很多学习如何编写宏包的成本，我的本科毕业论文时间并不多，只能在cls文件上直接修改，虽然会很ugly。
+
+LaTeX中还有宏包的概念，这大致可以理解为bootstrap之于web这样的一个工具，利用bootstrap能够帮助我们快速的搭建一个漂亮的网页。利用宏包，我们可以使用很多现成的好用的样式。所谓宏包只是将一些常用的不错的东西打包以便使用而已。当然了，如果要编写一个自己的个性化的宏包也是可以的，不过需要学习成本而已。   初期的话，我们可以选择一个LaTeX模板进行改造。不过第一次见到一些模板的话，可能会对很多文件的作用一头雾水，下面是简单的介绍，详细内容可见[在LaTeX中进行文学编程](http://liam0205.me/2015/01/23/literate-programming-in-latex/)，当然更多介绍的话可以自行搜索。
+
+LaTeX模板常见文件类型 | 功能简要介绍
+:---:|:---:
+.dtx|**D**ocumented La**T**e**X** sources,宏包重要部分
+.ins | installation,控制 TeX 从 .dtx 文件里释放宏包文件
+.sty | style files，使用<code>\usepackage{...}</code>命令进行加载
+.cls |classes files，使用<code>\documentclass{...}</code>命令进行加载
+.aux|auxiliary, 辅助文件
+.cfg|config, 配置文件
+.bst | BibTeX style file
+
+class与style好像内容很像的感觉，在功能上的确很相似，但是也有区别。[这里是关于.cls与.sty文件的区别](https://tug.org/pracjourn/2005-3/asknelly/nelly-sty-&-cls.pdf)
+
 
 ## 安装配置LaTeX
 ---
@@ -96,7 +115,7 @@ LaTeX配置环境很简单，只需2步即可：
 	  - 行内公式  
 	      <code>$ 行内公式 $</code>
 
-2. 凡是键盘不方便或者不能够表示的符号皆有命令，类似转义，叫做**控制序列（control sequence）**。比如求和符号$\sum$对应的命令为 <code>\sum</code>.
+2. 凡是键盘不能够直接表示的符号或者起着特定作用的皆有命令，类似转义，叫做**控制序列（control sequence）**。比如求和符号$\sum$对应的命令为 <code>\sum</code>.
 
 3. 上下标。<code>_{...}</code>表示下标，<code>^{...}</code>表示上标。它默认只作用于之后的一个字符，如果想对连续的几个字符起作用，请将这些字符用花括号{}括起来, 也就是下面分组的概念。
 
