@@ -34,10 +34,10 @@ LaTeX模板常见文件类型 | 功能简要介绍
 :---:|:---:
 .dtx|**D**ocumented La**T**e**X** sources,宏包重要部分
 .ins | installation,控制 TeX 从 .dtx 文件里释放宏包文件
+.cfg|config, 配置文件，可由上面两个文件生成
 .sty | style files，使用<code>\usepackage{...}</code>命令进行加载
-.cls |classes files，使用<code>\documentclass{...}</code>命令进行加载
+.cls |classes files，类文件，使用<code>\documentclass{...}</code>命令进行加载
 .aux|auxiliary, 辅助文件，不影响正常使用
-.cfg|config, 配置文件
 .bst | BibTeX style file,用来控制参考文献样式
 
 class与style好像内容很像的感觉，在功能上的确很相似，但是也有区别。[这里是关于.cls与.sty文件的区别](https://tug.org/pracjourn/2005-3/asknelly/nelly-sty-&-cls.pdf)
