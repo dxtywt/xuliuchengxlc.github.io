@@ -36,9 +36,9 @@ LaTeX模板常见文件类型 | 功能简要介绍
 .ins | installation,控制 TeX 从 .dtx 文件里释放宏包文件
 .sty | style files，使用<code>\usepackage{...}</code>命令进行加载
 .cls |classes files，使用<code>\documentclass{...}</code>命令进行加载
-.aux|auxiliary, 辅助文件
+.aux|auxiliary, 辅助文件，不影响正常使用
 .cfg|config, 配置文件
-.bst | BibTeX style file
+.bst | BibTeX style file,用来控制参考文献样式
 
 class与style好像内容很像的感觉，在功能上的确很相似，但是也有区别。[这里是关于.cls与.sty文件的区别](https://tug.org/pracjourn/2005-3/asknelly/nelly-sty-&-cls.pdf)
 
@@ -165,8 +165,8 @@ Windows平台比较简单，引入CJK宏包并应用CJK环境即可。
     
 - [LaTeX公式编辑器](http://zh.numberempire.com/texequationeditor/equationeditor.php)
 
-	对于书写LaTeX公式提供一点便利。
+	对于尚不熟悉的人书写LaTeX公式提供一点便利。
 	
 - [在线LaTeX编辑器shareLaTeX](https://cn.sharelatex.com/)
 
-  好处就是不用本地搭建环境，直接在线操作。还有很多LaTeX模板可供选择。
+  好处就是不用本地搭建环境，有中文界面，直接在线操作。还有很多LaTeX模板可供选择。
