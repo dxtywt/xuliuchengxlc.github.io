@@ -64,7 +64,7 @@ LaTeX配置环境很简单，只需2步即可：
 
 	在安装好LaTeX环境以后，通常都会有一个自带的编辑器，比如CTex的WinEdt, Mac下的TeXShop, 不过功能并不强大，就好比Windows记事本，只有一些基本的文本编辑功能。
 	
-	在这里推荐一个我目前觉得还不错的LaTeX编辑器：**TeXstudio**。我试过WinEdt，TeXnicle，不过都比不上TeXstudio。
+	在这里推荐一个我目前觉得还不错的LaTeX编辑器：**TeXstudio**。我试过WinEdt，TeXnicle，不过都比不上TeXstudio。在WinEdt下面无法编译的文件，居然可以在TeXstudio中编译生成最终效果，虽然log里面显示error，但的确产生了效果。不管怎么说，用TeXstudio就对了。它使用qt写的，还跨平台。
 
 ## 开始第一个LaTeX文档
 ---
