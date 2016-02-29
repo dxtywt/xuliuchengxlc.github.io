@@ -63,7 +63,7 @@ disqus: y
 - s：和x类似，不过最后进入插入模式。
 
 ### 粘贴
-- p ( paste )(小写p) r: 在当前行后粘贴。
+- p ( paste )(小写p) : 在当前行后粘贴。
 - P（ 大写P ）: 在当前行前粘贴。
 
 ### 使用数字
@@ -83,5 +83,5 @@ vim 是程序员专用，自然有一些特性是专门为程序员而设计的�
 - gd ( go to definition )：到达光标所在处函数或者变量的定义处。
 - K：在 Man 里面查找光标当前所在处的词。
 
-#### 参考资料：
+#### 参考资料
 - [Vim学习笔记](http://mturing.com/wiki/wikihtml/Vim%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.html)
