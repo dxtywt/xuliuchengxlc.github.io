@@ -70,8 +70,7 @@ ul#markdown-toc {
     line-height: 12pt;
     max-height: 80%;
     overflow: auto;
-    -webkit-box-shadow:0 0 1em #777;
-    -moz-box-shadow:0 0 1em #777;
+    box-shadow:0 0 1em #777;
 }
 
 #go-back-home {
