@@ -49,7 +49,7 @@ disqus: y
 - y：拷贝选择的内容到剪贴板。
 - c：剪贴选择的内容到剪贴板并且进入插入模式。
 
-### 在非可视选择模式（visual mode）下剪切和拷贝
+### 在非可视选择模式下剪切和拷贝
 - d( delete ){motion}：剪切 motion 命令跨过的字符到剪贴板。比如，dw 会剪切一个词; dfS 会将从当前光标到下一个 S 之间的字符剪切至剪贴板。
 - y( yank ){motion}：和上面类似，不过是拷贝。
 - c( change ){motion}：和 d( delete ){motion} 类似，不过最后进入插入模式。
