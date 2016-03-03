@@ -62,9 +62,21 @@ disqus: y
 - x：剪切(当前字符到剪贴板)。
 - s：和x类似，不过最后进入插入模式。
 
+### 替换
+- r ( replace ) : 替换单个字符，不必进入插入模式(insert mode)。 在 normal mode 下将光标停在想要替换的字符处，输入<code>r</code>紧接着再输入想要替换后的字符即可。完成后仍然在normal mode。
+- s ( substitute ) : 替换。在normal mode下的<code>s</code>将会删除光标处的字符并进入 insert mode，此时便可进行重新编辑。
+
 ### 粘贴
-- p ( paste )(小写p) : 在当前行后粘贴。
+- p ( paste or put )(小写p) : 在当前行后粘贴。
 - P（ 大写P ）: 在当前行前粘贴。
+
+### 保存退出
+- q ( quit ): 退出，如果有未保存的修改则无法退出
+- q! ( force quit ): 强制退出
+- w ( write edits to disk (save file) ): 保存文件
+- w! ( force write ): 强制保存
+- ZZ ( quit and save edits ): 保存文件并退出
+- e! (  revert your changes ): 回滚所有修改至原始状态
 
 ### 使用数字
 在很多 vim 的命令之前都可以使用一个数字，这个数字将会告诉 vim 这个命令需要执行几次。比如：
