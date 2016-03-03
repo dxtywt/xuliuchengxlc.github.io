@@ -81,6 +81,8 @@ executor的keywords设置很简单，在setting里面Add Keywords就可以设置
 
 LaTeX编辑器：TeXstudio,跨平台。
 
+windows shell : [babun, a windows shell you will love](http://babun.github.io/)。模拟Unix shell，在Windows体验Unix terminal。
+
 翻墙：lantern，开源免费，在[GitHub](https://github.com/getlantern/lantern)下载即可；shadowsocks, ss-link.com。
 
 影音播放器：Potplayer，加上下面百度网盘里面分享的Zune皮肤更显酷炫。
