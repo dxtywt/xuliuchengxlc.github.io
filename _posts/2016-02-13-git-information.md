@@ -24,7 +24,7 @@ disqus: y
    ![git status](/images/blog/2016/02-14/git-status.png) 
 根据提示，使用<code>git add index.html</code>则是将此次修改提交到了暂存区，使用<code>git checkout -- index.html</code>则是放弃这次的修改，将文件还原到此次修改前的状态。
 
-- 提交完了才发现漏掉了几个文件没有添加，或者提交信息写错了。
+- 提交完了才发现漏掉了几个文件没有添加，或者提交信息写错了。  
 此时，可以运行带有 <code>--amend</code> 选项的提交命令尝试重新提交.这个命令会将暂存区中的文件提交。 如果自上次提交以来你还未做任何修改（例如，在上次提交后马上执行了此命令），那么快照会保持不变，而你所修改的只是提交信息。比如，在<code>git commit -m "modified inndex.html"</code>后, 你发现index写错了或者还有文件没有提交，如果还有文件additional-files需要提交，那么输入<code>git add additional-files</code>.如果没有任何文件需要修改提交，只是修改提交信息，那么直接输入<code>git commit --amend</code>，文本编辑器启动后，可以看到之前的提交信息。 编辑后保存会覆盖原来的提交信息。
 最终你只会有一个提交 - 第二次提交将代替第一次提交的结果。
 
