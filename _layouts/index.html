@@ -2,7 +2,18 @@
   <head>
     <meta content='{{ site.title }}' property='og:title' />
     <title>{{ site.title }}</title>
+    <link href='/stylesheets/index.css' rel='stylesheet' type='text/css' />
     {% include head.html %}
+    <script type='text/javascript'>
+    $(document).ready(function(){
+        $("ul.posts li ").mouseover(function(){
+                $(this).css("background-color","#DFECEC");
+                });
+        $("ul.posts li ").mouseout(function(){
+                $(this).css("background-color","#FFFFFF");
+                });
+    });
+    </script>
   </head>
   <body>
     {% include header.html %}
