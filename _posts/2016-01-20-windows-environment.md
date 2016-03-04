@@ -2,7 +2,10 @@
 layout: post
 title: 打造一个漂亮、简单、高效的Windows环境
 tags: Windows
-disqus: y
+disqus: "y"
+published: true
+tagline: utility
+
 ---
 
 * TOC
@@ -80,6 +83,8 @@ executor的keywords设置很简单，在setting里面Add Keywords就可以设置
 ### 其他推荐软件
 
 LaTeX编辑器：TeXstudio,跨平台。
+
+windows shell : [babun, a windows shell you will love](http://babun.github.io/)。模拟Unix shell，在Windows体验Unix terminal。
 
 翻墙：lantern，开源免费，在[GitHub](https://github.com/getlantern/lantern)下载即可；shadowsocks, ss-link.com。
 
