@@ -307,7 +307,7 @@ section.post {
     text-align: center;
     line-height: 1.5em;
     margin-bottom: 60px; }
-    section.post h1 .date {
+    section.post .date {
       color: #d0d0d0;
       font-size: 16px; }
   section.post iframe {
