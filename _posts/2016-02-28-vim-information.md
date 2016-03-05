@@ -61,27 +61,36 @@ disqus: y
 - d( delete ){motion}：剪切 motion 命令跨过的字符到剪贴板。比如，dw 会剪切一个词; dfS 会将从当前光标到下一个 S 之间的字符剪切至剪贴板。
 - y( yank ){motion}：和上面类似，不过是拷贝。
 - c( change ){motion}：和 d( delete ){motion} 类似，不过最后进入插入模式。
-- dd：剪切当前行(至剪贴板)。
+- dd ：剪切当前行(至剪贴板)。
+- dw : 删除一个单词，不适用于中文。由于vim中对于单词，句子，段落等定义以及像单词的跳转一般距离很小，此类很“细致”的命令似乎并不是十分受用。
 - yy：拷贝当前行（至剪贴板）。
 - Y：拷贝当前行（至剪贴板）。
-- cc：剪切当前行并且进入插入模式。
 - D：剪切从光标位置到行尾(到剪贴板)。
 - C：和 D 类似，最后进入插入模式。
 - x：剪切(当前字符到剪贴板)。
 - s：和x类似，不过最后进入插入模式。
 
 ### 替换
+- <code>~</code> : 游标所在处字符进行大小写替换。
 - r ( replace ) : 替换单个字符，不必进入插入模式(insert mode)。 在 normal mode 下将光标停在想要替换的字符处，输入<code>r</code>紧接着再输入想要替换后的字符即可。完成后仍然在normal mode。
+- R : 大写的R表示连续替换，直到按下<code>esc</code>.
+- cc ( change )：替换整行，即删除游标所在行，并进入插入模式。
 - s ( substitute ) : 替换。在normal mode下的<code>s</code>将会删除光标处的字符并进入 insert mode，此时便可进行重新编辑。
 
 ### 粘贴
 - p ( paste or put )(小写p) : 在当前行后粘贴。
 - P（ 大写P ）: 在当前行前粘贴。
 
+### 调整本行内容位置
+- <code>:ce</code> : 在命令行模式下输入 <code>:ce</code> (center)将本行内容居中。
+- <code>:ri</code> : 将本行内容居右(right).
+- <code>:le</code> : 将本行内容居左(left).
+
 ### 保存退出
+下列操作都是在命令行模式下，即退出操作为输入<code>:q</code>.
 - q ( quit ): 退出，如果有未保存的修改则无法退出
 - q! ( force quit ): 强制退出
-- w ( write edits to disk (save file) ): 保存文件
+- w ( write edits to disk (save file) ): 保存文件。<code>:w FILENAME</code>即是将当前正在编辑的文件另保存为FILENAME文件，并存储在进入vim的目录下。
 - w! ( force write ): 强制保存
 - ZZ ( quit and save edits ): 保存文件并退出
 - e! (  revert your changes ): 回滚所有修改至原始状态
