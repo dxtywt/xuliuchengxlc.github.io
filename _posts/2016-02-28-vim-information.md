@@ -88,6 +88,7 @@ disqus: y
 
 ### 保存退出
 下列操作都是在命令行模式下，即退出操作为输入<code>:q</code>.
+
 - q ( quit ): 退出，如果有未保存的修改则无法退出
 - q! ( force quit ): 强制退出
 - w ( write edits to disk (save file) ): 保存文件。<code>:w FILENAME</code>即是将当前正在编辑的文件另保存为FILENAME文件，并存储在进入vim的目录下。
