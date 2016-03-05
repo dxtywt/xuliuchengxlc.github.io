@@ -1,6 +1,7 @@
 ---
 layout: post
 title: My First Post
+author: Liucheng Xu
 tags: Others
 disqus: y
 ---

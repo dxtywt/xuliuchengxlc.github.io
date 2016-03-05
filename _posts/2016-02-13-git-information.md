@@ -1,6 +1,7 @@
 ---
 layout: post
 title: git备忘录
+author: Liucheng Xu
 tags: git
 disqus: y
 ---

@@ -2,6 +2,7 @@
 layout: post
 title: 教你LaTeX快速入门
 tags: LaTeX
+author: Liucheng Xu
 disqus: y
 ---
 

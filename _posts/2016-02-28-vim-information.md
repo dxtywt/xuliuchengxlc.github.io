@@ -1,6 +1,7 @@
 ---
 layout: post
 title: vim备忘录
+author: Liucheng Xu
 tags: vim
 disqus: y
 ---
