@@ -87,7 +87,9 @@ LaTeX编辑器：TeXstudio,跨平台。
 
 windows shell : [babun, a windows shell you will love](http://babun.github.io/)。模拟Unix shell，在Windows体验Unix terminal。
 
-翻墙：lantern，开源免费，在[GitHub](https://github.com/getlantern/lantern)下载即可；shadowsocks, ss-link.com。
+Mobaxterm : [Enhanced terminal for Windows with X11 server, tabbed SSH client, network tools and much more](http://mobaxterm.mobatek.net/), 不要再用putty了。
+
+翻墙：lantern，开源免费，在[GitHub](https://github.com/getlantern/lantern)下载即可；shadowsocks, www.ss-link.com 现在7块一个月，我买的时候还是5块。
 
 影音播放器：Potplayer，加上下面百度网盘里面分享的Zune皮肤更显酷炫。
 
@@ -95,13 +97,13 @@ windows shell : [babun, a windows shell you will love](http://babun.github.io/)�
 
 chrome插件：
 
-|Chrome插件       |功能                |
-|:--------:|:--------:|
-|lastpass       |保存网站密码，只用记住主密码       |
-|cVim           |用vim的方式使用浏览器，比vimium更酷|
-|广告终结者     |屏蔽广告                           |
-|Markdown Here  |用markdown写一封漂亮的邮件         |
-|Octotree       |Code tree for GitHub and GitLab    |
+Chrome插件       |功能                
+:--------:|:--------:
+lastpass       |保存网站密码，只用记住主密码       
+cVim           |用vim的方式使用浏览器，比vimium更酷
+广告终结者     |屏蔽广告                           
+Markdown Here  |用markdown写一封漂亮的邮件       
+Octotree       |Code tree for GitHub and GitLab    
 
 ## 提升颜值
 ---
