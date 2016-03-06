@@ -61,7 +61,7 @@ LaTeX配置环境很简单，只需2步即可：
     
         [MacTeX](http://tug.org/mactex/)
 
-   windows用户推荐TeXlive，不推荐CTeX。TeXlive在线安装太慢了，安装包太大，2.66G，这里是我分享的[2015 TeXlive 离线安装包 百度云盘链接](http://pan.baidu.com/s/1jHfUzWy), 提取密码2cj2，解压缩后运行install-tl-windows.bat即可。mac用户推荐使用MacTeX.
+   windows用户推荐TeXlive，不推荐CTeX。我一开始安装的是CTeX，在TeXstudio里面总有一些莫名其妙的错误，比如明明定义了一个命令，在log里面还是会显示error：undefined control sequence，换了TeXlive就没有那些莫名其妙的错误了。TeXlive在线安装太慢了，安装包太大，2.66G，这里是我分享的[2015 TeXlive 离线安装包 百度云盘链接](http://pan.baidu.com/s/1jHfUzWy), 提取密码2cj2，解压缩后运行install-tl-windows.bat即可。mac用户推荐使用MacTeX.
 
 2. 选择一个合适的LaTeX编辑器。
 
