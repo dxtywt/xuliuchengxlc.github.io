@@ -1,9 +1,11 @@
 ---
 layout: post
-title: 教你LaTeX快速入门
+title: 从零开始教你LaTeX快速入门
 tags: LaTeX
 author: Liucheng Xu
-disqus: y
+disqus: "y"
+published: true
+
 ---
 
 * TOC
