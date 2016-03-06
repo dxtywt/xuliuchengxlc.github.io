@@ -88,7 +88,7 @@ LaTeX配置环境很简单，只需2步即可：
 至此，一个极简易的LaTeX文档已经完成。以后的内容不过是多用多查，熟能生巧。  
 记得找本LaTeX的书籍看一下，一来对于更为精细的知识做一个了解，二来可以作为工具书有问题的时候查询。我经常查的是 <<LaTeX入门与提高 第二版>>。
 
-### LaTeX数学公式
+## LaTeX数学公式
 
 学习LaTeX的一大初衷其实是为了书写数学公式。  
 数学公式的练习始于markdown，因为很多markdown编辑器是支持LaTeX数学公式的，比如haroopad。那么不仅可以写出漂亮的公式，还能方便做笔记。
@@ -134,7 +134,7 @@ LaTeX配置环境很简单，只需2步即可：
 
 有了这几个概念以后，再动手写几个就大概懂了。无论多么复杂的公式都是有一个个简单的东西构成。推荐一个网站：[MathJax basic tutorial ](http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference).
 
-### LaTeX中文支持
+## LaTeX中文支持
 
 不同环境具体操作有所不同，下面介绍Windows与Mac平台。
 
@@ -159,7 +159,7 @@ Windows平台比较简单，引入CJK宏包并应用CJK环境即可。
 ![font](/images/blog/2016/01-30/font.png)
 ![macchinese](/images/blog/2016/01-30/MacChinese.png)
 
-### 几个LaTeX推荐网站
+## 几个LaTeX推荐网站
 
 - [Detexify LaTeX handwritten symbol recognition](http://detexify.kirelabs.org/classify.html).
 
