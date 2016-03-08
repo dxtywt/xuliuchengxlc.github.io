@@ -204,6 +204,7 @@ a, .as-link {
   font-size: 16px;
   text-decoration: none;
   color: #269;
+  cursor: crosshair;
   line-height: 1.4em;
   display: inline-block;
   vertical-align: baseline;
