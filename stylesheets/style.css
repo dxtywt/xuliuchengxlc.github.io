@@ -317,7 +317,8 @@ section.post {
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
     border-top-left-radius: 3px;
-    border-top-right-radius: 3px; }
+    border-top-right-radius: 3px; 
+    box-shadow: 0 0 10px #555;}
 
 section.post, section > p {
   font-size: 16px;
