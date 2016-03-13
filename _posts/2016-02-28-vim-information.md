@@ -9,6 +9,24 @@ disqus: y
 * TOC
 {:toc}
 
+### vim概览
+- vim的命令有如下特点：
+    
+    - 字母大小写有区别(大写与小写表示不同的意义，I与i功用不同)。
+    - 在输入时不会显示在屏幕上。
+    - 不需要在命令后加上<code>enter</code>键。
+    
+- 运作模式
+当前"模式(mode)"的概念对vim的运作是最基础的。模式有两种:命令模式(command mode)与插入模式(insert mode).一开始是命令模式，此时所有的按键都代表命令；而在插入模式中，你输入的东西都成为文件的内容。
+
+### vim命令的一般形式
+如果对于vim不是一个完全的新手，大概能够发现大部分vim命令具有以下模式：<code>(command)(text object)</code>.对于更改命令(change)c,command部分就是指c,text object(文本对象)则是光标移动命令(输入时不需要加上括号)。删除命令d(delete)、复制命令y(yank)同样适用这种形式。
+
+另外，text object（光标移动命令）可使用数值参数，因此可将数值加在c、d、y等命令的文本对象上。例如d2w与2dw都是删除两个单词的命令。在了解这一点后，其实大部分vim命令都遵循如下模式： <code>(command)(number)(text object)</code>或者其等效模式: <code>(number)(command)(text object)</code>. 它们的工作方式是这样的：number与command为可选项。如果没有这两部分，只是单纯的光标移动命令；如果加上number，则出现移动多次的效果；结合command（c、d、y等等）与text object, 则会得到编辑命令。
+
+当你认识到这些组合的多样性后，vim就成为有强大威力的编辑器了！
+
+
 ### 在当前行 ( current line ) 有效的移动光标
 当光标从一点移动到另外一点，在这两点之间的文本（包括这两个点）称作被“跨过”，这里的命令也被称作是 **motion**。（简单说明一下，后面会用到这个重要的概念）
 
@@ -70,7 +88,7 @@ disqus: y
 - x：剪切(当前字符到剪贴板)。
 - s：和x类似，不过最后进入插入模式。
 
-### 替换
+### 替换(更改)文本
 - <code>~</code> : 游标所在处字符进行大小写替换。
 - r ( replace ) : 替换单个字符，不必进入插入模式(insert mode)。 在 normal mode 下将光标停在想要替换的字符处，输入<code>r</code>紧接着再输入想要替换后的字符即可。完成后仍然在normal mode。
 - R : 大写的R表示连续替换，直到按下<code>esc</code>.
@@ -93,8 +111,8 @@ disqus: y
 - q! ( force quit ): 强制退出
 - w ( write edits to disk (save file) ): 保存文件。<code>:w FILENAME</code>即是将当前正在编辑的文件另保存为FILENAME文件，并存储在进入vim的目录下。
 - w! ( force write ): 强制保存
-- ZZ ( quit and save edits ): 保存文件并退出
-- e! (  revert your changes ): 回滚所有修改至原始状态
+- ZZ ( quit and save edits ): 保存文件并退出。等同于wq.
+- e! (  revert your changes ): 回滚所有修改至原始状态，也就是说消除所有的编辑结果，回到原来的文件。
 
 ### 使用数字
 在很多 vim 的命令之前都可以使用一个数字，这个数字将会告诉 vim 这个命令需要执行几次。比如：
@@ -113,5 +131,6 @@ vim 是程序员专用，自然有一些特性是专门为程序员而设计的�
 - gd ( go to definition )：到达光标所在处函数或者变量的定义处。
 - K：在 Man 里面查找光标当前所在处的词。
 
-#### 参考资料
+### 参考资料
 - [Vim学习笔记](http://mturing.com/wiki/wikihtml/Vim%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.html)
+- 学习vi与vim编辑器 第七版 中文 东南大学出版社
