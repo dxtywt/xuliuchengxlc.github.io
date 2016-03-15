@@ -319,7 +319,10 @@ section.post {
     border-bottom-right-radius: 3px;
     border-top-left-radius: 3px;
     border-top-right-radius: 3px; 
-    box-shadow: 0 0 10px #555;}
+    box-shadow: 0 0 10px #555;
+    clear: both;
+    display: block;
+    margin: auto;}
 
 section.post, section > p {
   font-size: 16px;
