@@ -59,7 +59,6 @@ ol, ul {
 ul#markdown-toc {
     font-size: 10pt;
     display: inline-block;
-    background: #f8f8f8;
     border-radius: 5px;
     border: 1px solid #e5e5e5;
     padding: 0.5em 1em 0.5em 2em;
@@ -71,8 +70,11 @@ ul#markdown-toc {
     max-height: 80%;
     overflow: auto;
     box-shadow:0 0 1em #777;
+    list-style-type: square;
 }
-
+ul#markdown-toc li{
+  list-style-type: square;
+}
 #go-back-home {
   margin: 40px 0 0; }
   #go-back-home:hover {
