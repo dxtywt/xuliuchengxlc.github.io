@@ -16,7 +16,6 @@ published: true
 此篇为写给一些想快速入门LaTeX的朋友,本人学识与能力有限，以下内容如有纰漏或错误，欢迎来信。
 
 ## LaTeX概览
----
 
 摘自维基百科：  
 
@@ -47,7 +46,6 @@ class与style好像内容很像的感觉，在功能上的确很相似，但是�
 
 
 ## 安装配置LaTeX
----
 
 LaTeX配置环境很简单，只需2步即可：
 
@@ -72,7 +70,6 @@ LaTeX配置环境很简单，只需2步即可：
 	在这里推荐一个我目前觉得还不错的LaTeX编辑器：**TeXstudio**。我试过WinEdt，TeXnicle，不过都比不上TeXstudio。在WinEdt下面无法编译的文件，居然可以在TeXstudio中编译生成最终效果，虽然log里面显示error，但的确产生了效果。不管怎么说，用TeXstudio就对了。它使用qt写的，还跨平台。
 
 ## 开始第一个LaTeX文档
----
 
 打开TeXstudio，新建一个TeX文件，写入以下内容：
 
@@ -138,7 +135,6 @@ LaTeX配置环境很简单，只需2步即可：
 有了这几个概念以后，再动手写几个就大概懂了。无论多么复杂的公式都是有一个个简单的东西构成。推荐一个网站：[MathJax basic tutorial ](http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference).
 
 ## LaTeX中文支持
----
 
 不同环境具体操作有所不同，下面介绍Windows与Mac平台。
 
@@ -164,7 +160,6 @@ Windows平台比较简单，引入CJK宏包并应用CJK环境即可。
 ![macchinese](/images/blog/2016/01-30/MacChinese.png)
 
 ## 几个LaTeX推荐网站
----
 
 - [Detexify LaTeX handwritten symbol recognition](http://detexify.kirelabs.org/classify.html).
 
@@ -178,3 +173,10 @@ Windows平台比较简单，引入CJK宏包并应用CJK环境即可。
 - [在线LaTeX编辑器shareLaTeX](https://cn.sharelatex.com/)
 
   好处就是不用本地搭建环境，有中文界面，直接在线操作。还有很多LaTeX模板可供选择。
+  
+##  写在大致完成本科论文LaTeX工作后
+在本文前些部分我写到想通过修改清华大学的LaTeX模板改造为我的本科院校给出的word模板样式，不过最后这条路还是行不通。反思其原因是一直写个宏包出来，从thuthesis.cls到szuthesis.cls，最好能够一次性做出一个模板出来。但是始终由于这样那样的原因没有时间给我去折腾了，太多错误无法解决，一口吃不成个胖子。最后我选择基于ctexart的基本样式进行修改，在tex源文件混杂了样式内容，虽然不漂亮，但是对于完成本科论文绰绰有余了。在tex源文件里修改ctexart的各种样式实在是容易上手的多。
+
+下面修改样式的过程的一些经验，最好在看一下下面的资料在对ctexart进行修改，会更有效：
+
+- TeX发行版自带的doc中的ctex.pdf。比如我装的TeXLive2015，就在安装TexLive的目录下c:/texlive/2015/texmf-dist/doc/latex/ctex/ctex.pdf.其实进入到2015目录后，会发现有个doc.html文件直接打开它就会发现各种文档了。请仔细ctex.pdf会很有用。
