@@ -9,14 +9,12 @@ disqus: y
 {:toc}
 
 ## git 常用命令速查表
----
 
 ![git常用命令速查表](/images/blog/2016/02-14/Git常用命令.jpg)
 
 [Pro git book](https://git-scm.com/book/zh/v2) 里面的内容应该是足够日常使用了，也是查阅的好地方。本文内容在其中应该都能够找到。
 
 ## git 常见场景下的用法
----
 
 ### 撤销修改
 - 放弃刚刚对一个文件的改动  
