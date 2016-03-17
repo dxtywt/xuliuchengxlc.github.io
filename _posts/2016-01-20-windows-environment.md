@@ -53,6 +53,10 @@ executor的keywords设置很简单，在setting里面Add Keywords就可以设置
 |  <code>ctrl</code> + 7      | SumatraPDF       |
 |  <code>ctrl</code> + 0      | everything       |
 
+这些快捷键时常也会增增渐渐，但大体就是如此了。
+
+![executor](/images/blog/2016/01-20/executor.jpg)
+
 记忆起来也很简单，everything最常用就用<code>ctrl</code>+0，<code>ctrl</code>辅以1,2为常用的两个浏览器，4、5、7分别于对应的软件名字数。
 
 另外关于everything的快捷键设置有些不同，不能勾选only one instance running选项，否则快捷键无效。
