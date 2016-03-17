@@ -11,15 +11,15 @@ h2, h3, h4, h5, strong, b {
 h2{
   margin-top: 20px;
   padding-bottom: 14px;
-  background: url(/images/titleline.jpg) no-repeat 25% 120%;
+  background: url(/images/titleline.jpg) no-repeat 25% 121%;
 }
 h3{
   margin-bottom: -12px;
-  background: url(/images/titleline.jpg) no-repeat 25% 126%;
+  background: url(/images/titleline.jpg) no-repeat 20% 126%;
 }
 h4{
   margin-bottom: -16px;
-  background: url(/images/titleline.jpg) no-repeat 25% 130%;
+  background: url(/images/titleline.jpg) no-repeat 22% 130%;
 }
 
 html, body {
