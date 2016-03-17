@@ -53,7 +53,7 @@ executor的keywords设置很简单，在setting里面Add Keywords就可以设置
 |  <code>ctrl</code> + 7      | SumatraPDF       |
 |  <code>ctrl</code> + 0      | everything       |
 
-这些快捷键时常也会增增渐渐，但大体就是如此了。
+这些快捷键时常也会增增减减，但大体就是如此了。
 
 ![executor](/images/blog/2016/01-20/executor.jpg)
 
