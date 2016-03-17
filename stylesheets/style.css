@@ -10,7 +10,6 @@ h2, h3, h4, h5, strong, b {
 }
 h2{
   margin-top: 20px;
-  padding-bottom: 14px;
   background: url(/images/titleline.jpg) no-repeat 25% 121%;
 }
 h3{
@@ -54,7 +53,7 @@ th{
     padding-top:5px;
     padding-bottom:4px;
     background-color:#A7C942;
-    color:#ffffff;
+    color:#fff;
 }
 ol, ul {
     padding-left:85px;
@@ -115,13 +114,13 @@ ul#markdown-toc li{
   color: #8f8f8f; }
 
 .colour-1 {
-  color: #cc9944; }
+  color: #c94; }
 
 .colour-2 {
   color: #925; }
 
 .colour-3 {
-  color: #448844; }
+  color: #484; }
 
 .text-big {
   font-size: 28px;
@@ -261,7 +260,7 @@ a, .as-link {
         background: #b76; }
     a.big-button.gray, .as-link.big-button.gray {
       border-color: #f4f4f4;
-      color: #ffffff;
+      color: #fff;
       background: #565656; }
       a.big-button.gray:hover, .as-link.big-button.gray:hover {
         background: #676767; }
@@ -309,8 +308,7 @@ section.post {
   section.post ul ul, section.post ul ol, section.post ol ul, section.post ol ol {
     margin-left: 20px;
     padding-left: 15px; }
-  section.post h1 {
-    text-transform: uppercase;
+  section.post h1 {text-transform: uppercase;
     text-align: center;
     line-height: 1.5em;
     margin-bottom: 60px; }
