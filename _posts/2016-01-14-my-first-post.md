@@ -53,5 +53,15 @@ This is *red*{: style="color: red"}.
 - 代码高亮
 
 ``` java
-System.out.println("hello");
+class Hello{
+
+    pulblic void test(){
+        System.out.println("test");
+    }
+    
+    public static void main(String[] args){
+        System.out.println("hello");
+    }
+    
+}
 ```
