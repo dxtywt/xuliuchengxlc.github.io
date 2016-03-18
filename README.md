@@ -5,7 +5,7 @@ My github blog is based on the jekyll theme [scribble](https://github.com/muan/s
 我的GitHub博客基于主题[scribble](https://github.com/muan/scribble)，并且我已经做了很多个性化的修改。相比原始的主题，相信我的更加漂亮与实用。我去掉了里面可能会导致墙内加载缓慢的部分，并添加了很多功能：
 - 代码高亮。采用js+css方式，使用了Google的prettify，并对部分css样式做了修改，使整体风格更契合。
 - index.html加入了tag。建议只使用一个tag，至于多个tag，甚至是分类，本来觉得并不十分必要，就没有添加。
-- 原有样式的修改，例如table,title,图片位置改进等等细节。
+- 原有样式的修改，例如多种字体的调整，table,title,图片位置改进等等细节。每次调整大都是看到觉得不错的style然后克隆过来而已。
 - 增加了copyright内容。
 
 您可以直接访问 **xuliuchengxlc.github.io** ，如果您也喜欢这个风格的话，欢迎**star and fork**! 本jekyll主题是非常易于个性化定制的，即使您目前对于jekyll来说只是一个新手。
