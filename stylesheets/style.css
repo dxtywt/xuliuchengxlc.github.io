@@ -1,6 +1,6 @@
 h1, h2, h3, h4, h5, strong, b {
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, Helvetica, STKaiti, SimSun, serif;
-  color: #444444;
+  color: #444;
 }
 h1 {
    font-size: 200%; 
@@ -33,7 +33,6 @@ body {
   margin: 0; }
   body, body * {
     -webkit-font-smoothing: antialiased; }
-
  
 /* table style */
 table {
@@ -56,6 +55,10 @@ th{
 ol, ul {
     padding-left:85px;
 }
+ol, ol li {
+  padding: 0;
+  margin: 0; }
+
 /* toc style */
 ul#markdown-toc {
     font-size: 10pt;
@@ -123,10 +126,6 @@ ul#markdown-toc li{
 .text-big {
   font-size: 28px;
   line-height: 1em; }
-
-ol, ol li {
-  padding: 0;
-  margin: 0; }
 
 blockquote {
   margin: 0;
@@ -273,7 +272,6 @@ a, .as-link {
       a.big-button.green:hover, .as-link.big-button.green:hover {
         background: #797; }
 
-
 ul.posts, ul.posts li {
   margin: 0;
   padding: 0;
@@ -377,10 +375,6 @@ section.post, section > p {
   padding: 9.5px;
   line-height: 1.42857143;
   border-radius: 8px;}
-
-
-
-
 
 img {
   max-width: 100%;
