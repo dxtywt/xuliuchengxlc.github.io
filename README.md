@@ -10,6 +10,6 @@ My github blog is based on the jekyll theme [scribble](https://github.com/muan/s
 - 修改about.md信息
 - 重新生成sitemap.
 
-至此，您应该就差不多用了一个有着类似风格的个性化GitHub博客了。接下来您可以根据您的喜好进行进一步的风格调整。
+至此，您应该就差不多用了一个有着类似风格的个性化GitHub博客了。接下来您可以根据您的喜好进行进一步的风格调整，同时做一些细节上的修缮工作，比如在_include/head.html中修改自己的信息。
 
 
