@@ -3,7 +3,7 @@ Liucheng Xu's Blog
 My github blog is based on the jekyll theme [scribble](https://github.com/muan/scribble) and many custom changes have been made. You can visit **xuliuchengxlc.github.io**. If you like it , please give me a star! Further more, you can fork and continue to modify the style based on the current edition, which is easy to make some changes, even you are a freshman to jekyll.
 
 我的GitHub博客基于主题[scribble](https://github.com/muan/scribble)，并且我已经做了很多个性化的修改。相比原始的主题，相信我的更加漂亮与实用。我去掉了里面可能会导致墙内加载缓慢的部分，并添加了很多功能：
-- 代码高亮。采用js+css方式，使用了Google的prettify，并对部分css样式做了修改。
+- 代码高亮。采用js+css方式，使用了Google的prettify，并对部分css样式做了修改，使整体风格更契合。
 - index.html加入了tag。建议只使用一个tag，至于多个tag，甚至是分类，本来觉得并不十分必要，就没有添加。
 - 原有样式的修改，例如table,title,图片位置改进等等细节。
 - 增加了copyright内容。
