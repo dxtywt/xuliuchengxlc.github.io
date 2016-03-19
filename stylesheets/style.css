@@ -414,12 +414,15 @@ code.has-jax {
     font-size: 100%; 
     background:inherit; 
     border: inherit;}
-p code,ul code, li code, ul li code, li ul code{
+code{
     padding: 2px 4px;
     font-size: 90%;
     color: #c7254e;
     background-color: #f9f2f4;
     border-radius: 4px;
+}
+pre code{
+  background-color: #456;/* 与prettify.css pre.prettyprint同步*/
 }
 .copyright{
   text-align: center;
