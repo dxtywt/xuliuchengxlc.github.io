@@ -414,7 +414,7 @@ code.has-jax {
     font-size: 100%; 
     background:inherit; 
     border: inherit;}
-p code{
+p code,ul code, li code, ul li code, li ul code{
     padding: 2px 4px;
     font-size: 90%;
     color: #c7254e;
