@@ -423,6 +423,7 @@ code{
 }
 pre code{
   background-color: #456;/* 与prettify.css pre.prettyprint同步*/
+  font-family: Monaco,Profont,Proggy,Consolas,Inconsolata,Courier;
 }
 .copyright{
   text-align: center;
