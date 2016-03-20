@@ -2,7 +2,7 @@
 layout: post
 title: 几种常用编程语言如何查找相对路径上的文件
 author: Liucheng Xu
-tags: "programming-language"
+tags: "programming language"
 disqus: y
 ---
 
