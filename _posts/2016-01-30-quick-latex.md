@@ -181,3 +181,4 @@ Windows平台比较简单，引入CJK宏包并应用CJK环境即可。
 
 - TeX发行版自带的doc中的ctex.pdf。比如我装的TeXLive2015，就在安装TexLive的目录下c:/texlive/2015/texmf-dist/doc/latex/ctex/ctex.pdf.其实进入到2015目录后，会发现有个doc.html文件直接打开它就会发现各种文档了。请仔细阅读一遍ctex.pdf会很有用。
 - 多查多用。
+- 一个很重要的查看宏包手册命令: 打开cmd, 输入:texdoc 你想要查询的宏包名, 比如<code>texdoc caption</code>，就会打开caption宏包手册。诚然可以网上查找解决办法,但是如果有空的话必然是查看官方手册更靠谱更全面.
