@@ -103,7 +103,7 @@ set -g status-interval 60
 
 ### Getting Started
 
-开始tmux使用。以下所有内容均为默认设置, 如果在配置文件修改了设置则以配置文件为准。
+开始tmux使用。以下大部分内容均为默认设置, 如果在配置文件修改了设置则以配置文件为准。
 
 commend | explanation
 :---:|:---:
@@ -119,50 +119,52 @@ commend | explanation
 
 以下的session(会话)、window(窗口)与pane(面板)命令中，PREFIX表示前缀键, 即如果未重映射前缀键的话，PREFIX表示`Ctrl+b`，然后再按后面的键。
 
+会话命令加前缀键。比如下面的s即指prefix+s，Ctrl+b+s.
+
 commend | explanation
 :---:|:---:
-`PREFIX-:new<CR>` | New session
-`PREFIX-$` | Name session
-`PREFIX-s` | List sessions
-`PREFIX-(` | Previous session
-`PREFIX-)` | Next session
-`PREFIX-L` | Last session
+`:new<CR>` | New session
+`$` | Name session
+`s` | List sessions
+`(` | Previous session
+`)` | Next session
+`L` | Last session
 
 ### Windows(Tabs)
 
-窗口操作。
+窗口操作。加前缀键。
 
 commend | explanation
 :---:|:---:
-`PREFIX-c` | New window
-`REFIX-w` | List windows
-`PREFIX-f` | Find window
-`PREFIX-,` | Name window
-`PREFIX-&` | Kill window
-`PREFIX-n` | Next window
-`PREFIX-p` | Previous window
-`PREFIX-l` | Previously selected window
+`c` | New window
+`w` | List windows
+`f` | Find window
+`,` | Name window
+`&` | Kill window
+`n` | Next window
+`p` | Previous window
+`l` | Previously selected window
 
 ### Panes (Splits)
 
-面板操作。
+面板操作。加前缀键。
 
 commend | explanation
 :---:|:---:
-`PREFIX-%` | Vertical split (Standard)
-`PREFIX-|` | Vertical split (Personal) In tmux.conf: bind-key split-window -v
-`PREFIX-"` | Horizontal split (Standard)
-`PREFIX- -` | Horizontal split (Personal) In tmux.conf: bind-key split-window -h
-`PREFIX-o` | Switch focus between panes
-`PREFIX-q` | Show pane numbers
-`PREFIX-x` | Kill pane
-`PREFIX-z` | Toggle active pane between zoomed and unzoomed
-`PREFIX-"+"` | Break pane into window (e.g. to select text by mouse to copy)
-`PREFIX-"-"` | Restore pane from window
-`PREFIX-Space` | Toggle between layouts
-`PREFIX-Q` | Show pane numbers When the numbers show up type the key to go to that pane
-`PREFIX-{` | Move the current pane left
-`PREFIX-}` | Move the current pane right
+`%` | Vertical split (Standard)
+`|` | Vertical split (Personal) In tmux.conf: bind-key split-window -v
+`"` | Horizontal split (Standard)
+`-` | Horizontal split (Personal)    In tmux.conf: bind-key split-window -h
+`o` | Switch focus between panes
+`q` | Show pane numbers
+`x` | Kill pane
+`z` | Toggle active pane between zoomed and unzoomed
+`+` | Break pane into window (e.g. to select text by mouse to copy)
+`-` | Restore pane from window
+`Space` | Toggle between layouts
+`Q` | Show pane numbers When the numbers show up type the key to go to that pane
+`{` | Move the current pane left
+`}` | Move the current pane right
 
 ### Copy Mode
 
