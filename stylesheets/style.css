@@ -79,7 +79,7 @@ ul#markdown-toc {
     list-style-type: square;
 }
 ul#markdown-toc li{
-  list-style-type: square;
+  list-style-type: disc;
 }
 #go-back-home {
   margin: 40px 0 0; }
