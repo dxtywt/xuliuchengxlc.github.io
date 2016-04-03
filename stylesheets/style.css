@@ -65,16 +65,14 @@ ol, ol li {
 
 /* toc style */
 ul#markdown-toc {
-    top: 0em;
-    right:0em;
-    display: inline-block;
     font-size: 10pt;
-    padding: 0.5em 1em 0.5em 2em;
+    padding: 0.5em 1em 0.5em 4em;
     margin-left: 60px;
+    width: 78%;
     line-height: 12pt;
     max-height: 80%;
     overflow: auto;
-    box-shadow:0 0 1em #777;
+    box-shadow:0 0 .5em #777;
     background: white;
     border: 1px solid #e5e5e5;
     border-radius: 5px;
