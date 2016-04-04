@@ -133,24 +133,34 @@ LaTeX 的数学模式有两种：行内模式(inline)和行间模式(display)。
 
 不同环境具体操作有所不同，下面介绍Windows与Mac平台。
 
-- Windows  
-Windows平台比较简单，引入CJK宏包并应用CJK环境即可。    
+**Windows**  
+Windows平台比较简单, 引入CJK宏包并应用CJK环境即可。    
+ 
+```tex
+    \documentclass[11pt]{article}  %百分号表示注释 
+    \usepackage{CJK}               %引入CJK宏包
+    \begin{document}               %begin与end成对出现
+    \begin{CJK}{UTF8}{song}        %应用CJK环境
+    你好
+    \end{CJK}
+    \end{document}
+```
 
-    LaTeX将 
+LaTeX将 
 
-    ``` 
+``` tex
     \begin{...}
     content
     \end{...}
-    ```
+```
 
-    称为<code>...</code>环境。在对应环境中 content 产生对应效果。
+称为<code>...</code>环境。在对应环境中 content 产生对应效果。
     
 ![winedt](/images/blog/2016/01-30/winedt.png)
 
 还有一个更方便的方式，直接使用<code>ctexart</code>模板即可:```\documentclass{ctexart}```
 
-- Mac  
+**Mac**  
 系统为osx 10.11.3, Mac添加中文支持稍微多几个操作，除了引入xeCJK宏包，还要设置字体名称。  
 关于设置字体名称，spotlight输入 zitice 打开 mac 的字体册,从字体中选择一个，将其名称填入，如华文楷体的名称为 STKaiti 。  
 如果没有显示字体名称，请 <code>command+I</code> 或在显示-->显示字体信息即可。
@@ -174,11 +184,13 @@ Windows平台比较简单，引入CJK宏包并应用CJK环境即可。
 
   好处就是不用本地搭建环境，有中文界面，直接在线操作。还有很多LaTeX模板可供选择。
   
-##  写在大致完成本科论文LaTeX工作后
+##  大致完成本科论文对于LaTeX初学者的建议！！！
 在本文前些部分我写到想通过修改清华大学的LaTeX模板改造为我的本科院校给出的word模板样式，不过最后这条路还是行不通。反思其原因是一直想写个宏包出来，从thuthesis.cls到szuthesis.cls，最好能够一次性做出一个模板出来。但是始终由于这样那样的原因没有时间给我去折腾了，太多错误无法解决，一口吃不成个胖子。最后我选择基于ctexart的基本样式进行修改，在tex源文件混杂了样式内容，从源代码的角度看虽然不漂亮，但是对于完成本科论文绰绰有余了。在tex源文件里修改ctexart的各种样式实在是容易上手的多。
+
+说了这么多就是：**初学者轻易不要尝试修改现有的模板样式文件**，除非你知道如何写一个宏包。完成样式即可，不用在乎源代码是否优雅。
 
 下面修改样式的过程的一些经验，最好在看一下下面的资料在对ctexart进行修改，会更有效：
 
-- TeX发行版自带的doc中的ctex.pdf。比如我装的TeXLive2015，就在安装TexLive的目录下c:/texlive/2015/texmf-dist/doc/latex/ctex/ctex.pdf.其实进入到2015目录后，会发现有个doc.html文件直接打开它就会发现各种文档了。请仔细阅读一遍ctex.pdf会很有用。
+- TeX发行版自带的doc中的ctex.pdf。比如我装的TeXLive2015，就在安装TexLive的目录下c:/texlive/2015/texmf-dist/doc/latex/ctex/ctex.pdf.其实进入到2015目录后，会发现有个doc.html文件直接打开它就会发现各种文档了。请**仔细阅读一遍ctex.pdf**会很有用。
 - 多查多用。
 - 一个很重要的查看宏包手册命令: 打开cmd, 输入:texdoc 你想要查询的宏包名, 比如<code>texdoc caption</code>，就会打开caption宏包手册。诚然可以网上查找解决办法,但是如果有空的话必然是查看官方手册更靠谱更全面.
