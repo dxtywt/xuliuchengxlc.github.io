@@ -17,3 +17,8 @@ a, .as-link{
     font-size:18px;
     font-weight:500;
 }
+
+#clustr{
+	display: block;
+	text-align: center;
+}
