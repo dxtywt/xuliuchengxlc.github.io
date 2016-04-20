@@ -1,6 +1,6 @@
 ---
 
-layout: post
+layout: postMath
 title: 理解梯度下降
 tags: mathematics
 author: Liucheng Xu
