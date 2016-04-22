@@ -17,7 +17,7 @@ My github blog is based on the jekyll theme [scribble](https://github.com/muan/s
 - 修改about.md信息
 - 修改_includes/ 与_layouts/ 目录下的相关内容
 - 修改_layouts/index.html中的clustrmaps与_includes/head.html中的Google analytics信息。
-- 重新生成sitemap，
+- 重新生成sitemap
 
 至此，您应该就差不多用了一个有着类似风格的个性化GitHub博客了。
 
