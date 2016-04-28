@@ -103,16 +103,18 @@ set -g status-interval 60
 
 ### Getting Started
 
-开始tmux使用。以下大部分内容均为默认设置, 如果在配置文件修改了设置则以配置文件为准。
+开始tmux使用。以下大部分内容均为默认设置, 如果在配置文件修改了设置则以配置文件为准。**且在英文输入状态下进行。**
+
+推荐材料 [tmux:Productive Mouse-Free Deveplement 中文版](http://www.kancloud.cn/kancloud/tmux/62459)
 
 commend | explanation
 :---:|:---:
-`tmux` | start new 
-`tmux new -s myname` | start new session with name myname
-`tmux a` / `tmux at` / `tmux attach` | Attach
-`tmux a -t myname` | Attach to named
-`tmux ls` | list sessions
-`tmux kill-session -t myname` | kill session
+`tmux` | 启动tmux会话
+`tmux new -s myname` | 创建一个名为myname的新的会话
+`tmux a` / `tmux at` / `tmux attach` | 如果当前仅有一个会话，重新连接该会话
+`tmux a -t myname` | 连接到指定会话myname
+`tmux ls` | 显示所有会话
+`tmux kill-session -t myname` | 关闭指定会话myname
 
 
 ### Sessions
@@ -124,11 +126,12 @@ commend | explanation
 commend | explanation
 :---:|:---:
 `:new<CR>` | New session
-`$` | Name session
-`s` | List sessions
-`(` | Previous session
-`)` | Next session
-`L` | Last session
+`d` | 从一个会话中分离，让该会话在后台运行
+`$` | 重命名会话
+`s` | 显示会话
+`(` | 切换到上一会话
+`)` | 切换到下一会话
+`L` | 切换到最后一个会话
 
 ### Windows(Tabs)
 
@@ -136,14 +139,14 @@ commend | explanation
 
 commend | explanation
 :---:|:---:
-`c` | New window
-`w` | List windows
-`f` | Find window
-`,` | Name window
-`&` | Kill window
-`n` | Next window
-`p` | Previous window
-`l` | Previously selected window
+`c` | 创建新窗口
+`w` | 显示窗口列表
+`f` | 查找窗口
+`,` | 重命名窗口
+`&` | 关闭当前窗口，带有确认提示
+`n` | 切换到下一窗口
+`p` | 切换到上一窗口
+`l` | 切换到最后一个使用的窗口
 
 ### Panes (Splits)
 
@@ -151,20 +154,20 @@ commend | explanation
 
 commend | explanation
 :---:|:---:
-`%` | Vertical split (Standard)
-`|` | Vertical split (Personal) In tmux.conf: bind-key split-window -v
-`"` | Horizontal split (Standard)
-`-` | Horizontal split (Personal)    In tmux.conf: bind-key split-window -h
-`o` | Switch focus between panes
-`q` | Show pane numbers
-`x` | Kill pane
+`%` | 垂直分割面板 (默认)
+`|` | 垂直分割面板 (配置修改后) In tmux.conf: bind-key split-window -v
+`"` | 水平分割面板 (默认)
+`-` | 水平分割面板 (配置修改后) In tmux.conf: bind-key split-window -h
+`o` | 在已打开的面板间循环移动当前焦点
+`q` | 短暂显示面板编号
+`x` | 关闭当前面板，带有确认提示
 `z` | Toggle active pane between zoomed and unzoomed
 `+` | Break pane into window (e.g. to select text by mouse to copy)
 `-` | Restore pane from window
-`Space` | Toggle between layouts
+`Space` | 循环使用tmux的几个默认面板布局
 `Q` | Show pane numbers When the numbers show up type the key to go to that pane
-`{` | Move the current pane left
-`}` | Move the current pane right
+`{` | 移动当前面板到左侧
+`}` | 移动当前面板到右侧
 
 ### Copy Mode
 
