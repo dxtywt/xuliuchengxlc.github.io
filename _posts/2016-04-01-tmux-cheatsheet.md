@@ -14,7 +14,9 @@ published: true
 
 
 ### 配置文件
-下面是我的配置文件, 在网上搜索而来，如有更新，可以再这里找到[tmux config](https://github.com/xuliuchengxlc/dotfiles/blob/master/tmux/.tmux.conf). 不过最好的选择当然是官方的manual page, [tmux.github.io](https://tmux.github.io/). 如果在网上搜索的话你会发现大多的tmux配置文件都是大同小异. 在我的配置文件并没有像大多配置一样将tmux的前缀键(类似emacs)的前缀键重映射为`Ctrl+a`，而是选择了默认设置`Ctrl+b`. 另外在颜色选择上不同平台下渲染的效果不一样, 注意适应。
+最全面的文档当然是官方的manual page, [tmux.github.io](https://tmux.github.io/). 如果在网上搜索的话你会发现大多的tmux配置文件都是大同小异. 在我的配置文件并没有像大多配置一样将tmux的前缀键(类似emacs)的前缀键重映射为`Ctrl+a`，而是选择了默认设置`Ctrl+b`. 另外在颜色选择上不同平台下渲染的效果不一样, 注意适应。
+
+下面是我的配置文件. 
 
 <script src="https://gist.github.com/xuliuchengxlc/bae72ae083aecdbf2ee8bfba81401908.js"></script>
 
