@@ -46,12 +46,12 @@ commend | explanation
 commend | explanation
 :---:|:---:
 `:new<CR>` | New session
-`d` | 从一个会话中分离，让该会话在后台运行
+`d (detach)` | 从一个会话中分离，让该会话在后台运行
 `$` | 重命名会话
 `s` | 显示会话
 `(` | 切换到上一会话
 `)` | 切换到下一会话
-`L` | 切换到最后一个会话
+`L (Last)` | 切换到最后一个会话
 
 ### Windows(Tabs)
 
@@ -59,14 +59,14 @@ commend | explanation
 
 commend | explanation
 :---:|:---:
-`c` | 创建新窗口
-`w` | 显示窗口列表
-`f` | 查找窗口
+`c (create)` | 创建新窗口
+`w (window)` | 显示窗口列表
+`f (find)` | 查找窗口
 `,` | 重命名窗口
 `&` | 关闭当前窗口，带有确认提示
-`n` | 切换到下一窗口
-`p` | 切换到上一窗口
-`l` | 切换到最后一个使用的窗口
+`n (next)` | 切换到下一窗口
+`p (previous)` | 切换到上一窗口
+`l (last)` | 切换到最后一个使用的窗口
 
 ### Panes (Splits)
 
