@@ -12,6 +12,48 @@ published: true
 * TOC
 {:toc}
 
+### 适用场景
+
+tmux是一个优秀的终端多路复用软件，类似GNU Screen，但来自于OpenBSD，采用BSD授权。使用它最直观的好处就是，通过一个终端登录远程主机并运行tmux后，在其中可以开启多个控制台而无需再“浪费”多余的终端来连接这台远程主机；当然其功能远不止于此，比如分屏(当然其他一些软甲也能达到这个目的，比如vim，但我还是喜欢tmux的分屏)。
+
+![tmux](/images/blog/2016/04-01/screen.png)
+
+为什么使用tmux： 
+
+tmux比screen有更多的功能，能够保持工作环境的**连续性**。例如tmux解决如下的问题：
+
+1. 下班后，如果你需要断开ssh或关闭电脑，你的ssh连接将丢失；
+
+2. 在公司或者实验室打开的ssh，在其他地方也需要访问，比如宿舍或家里；
+
+3. ssh可能由于一些原因中途意外断开(比如长时间没有操作)导致操作中断；
+
+安装完成后输入命令tmux即可打开软件，界面十分简单，类似一个下方带有状态栏的终端控制台；但根据tmux的定义，在开启了tmux服务器后，会首先创建一个会话，而这个会话则会首先创建一个窗口，其中仅包含一个面板；也就是说，这里看到的所谓终端控制台应该称作tmux的一个面板，虽然其使用方法与终端控制台完全相同。
+
+tmux使用C/S模型构建，主要包括以下单元模块：
+
+- server服务器。输入tmux命令时就开启了一个服务器。
+
+- session会话。一个服务器可以包含多个会话。
+
+- window窗口。一个会话可以包含多个窗口。
+
+- pane面板。一个窗口可以包含多个面板。
+
+![tmux](/images/blog/2016/04-01/tmux.png)
+
+**远程主机连接：**
+
+- 一键启动远程主机上的 tmux：  
+`ssh -t username@server.com tmux` 
+
+- 如果你之前在远程主机上已经开启了 tmux 的话，用以下命令。
+  
+  远程主机仅有一个tmux会话，直接进行重连：  
+  `ssh -t username@server.com tmux a`
+
+  远程主机有多个tmux会话，我们想要指定重新连接名为foo的tmux会话：  
+  `ssh -t username@server.com tmux a -t foo`
 
 ### 配置文件
 最全面的文档当然是官方的manual page, [tmux.github.io](https://tmux.github.io/). 如果在网上搜索的话你会发现大多的tmux配置文件都是大同小异. 在我的配置文件并没有像大多配置一样将tmux的前缀键(类似emacs)的前缀键重映射为`Ctrl+a`，而是选择了默认设置`Ctrl+b`. 另外在颜色选择上不同平台下渲染的效果不一样, 注意适应。
@@ -19,6 +61,9 @@ published: true
 下面是我的配置文件. 
 
 <script src="https://gist.github.com/xuliuchengxlc/bae72ae083aecdbf2ee8bfba81401908.js"></script>
+
+
+
 
 
 ### Getting Started
