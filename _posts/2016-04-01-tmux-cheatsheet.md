@@ -42,7 +42,7 @@ tmux使用C/S模型构建，主要包括以下单元模块：
 
 ![tmux](/images/blog/2016/04-01/tmux.png)
 
-**远程主机连接：**
+#### 远程主机连接
 
 - 一键启动远程主机上的 tmux：  
 `ssh -t username@server.com tmux` 
@@ -52,8 +52,22 @@ tmux使用C/S模型构建，主要包括以下单元模块：
   远程主机仅有一个tmux会话，直接进行重连：  
   `ssh -t username@server.com tmux a`
 
-  远程主机有多个tmux会话，我们想要指定重新连接名为foo的tmux会话：  
+  远程主机有多个tmux会话，我们想要指定重新连接名为foo的tmux会话 ( ssh后面的`-t`为了执行任意一个基于screen的远端主机上的程序，不可省略。tmux后面的`-t`为`-target`的简写，旨在指定tmux的会话名)：  
   `ssh -t username@server.com tmux a -t foo`
+  
+#### 注意事项
+
+在不同大小的屏幕连接一个session可能会出现问题。比如在一个较小的桌面打开一个session, 然后又在一个较大的桌面也打开这个session. 则会发现在较大的桌面上, 也只会显示和小桌面同样大小的窗口, 其余部分被密密麻麻的小点扩充.
+
+![tmux](/images/blog/2016/04-01/pot.png)
+
+解决方法之一是加入`-d`选项:
+`ssh -t username@server.com tmux a -d -t foo`
+即先强制 detach掉小桌面的session, 然后再在较大桌面打开session.
+
+另外, 或在配置文件中设置:
+`setw -g aggressive-resize on`
+
 
 ### 配置文件
 最全面的文档当然是官方的manual page, [tmux.github.io](https://tmux.github.io/). 如果在网上搜索的话你会发现大多的tmux配置文件都是大同小异. 在我的配置文件并没有像大多配置一样将tmux的前缀键(类似emacs)的前缀键重映射为`Ctrl+a`，而是选择了默认设置`Ctrl+b`. 另外在颜色选择上不同平台下渲染的效果不一样, 注意适应。
