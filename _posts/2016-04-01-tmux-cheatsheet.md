@@ -70,7 +70,10 @@ tmux使用C/S模型构建，主要包括以下单元模块：
 
 
 ### 配置文件
-最全面的文档当然是官方的manual page, [tmux.github.io](https://tmux.github.io/). 如果在网上搜索的话你会发现大多的tmux配置文件都是大同小异. 在我的配置文件并没有像大多配置一样将tmux的前缀键(类似emacs)的前缀键重映射为`Ctrl+a`，而是选择了默认设置`Ctrl+b`. 另外在颜色选择上不同平台下渲染的效果不一样, 注意适应。
+最全面的文档当然是官方的manual page, [tmux.github.io](https://tmux.github.io/). 再推荐一个非常不错的tmux教程：[A Tmux crash course: tips and tweaks](http://tangosource.com/blog/a-tmux-crash-course-tips-and-tweaks/).
+
+
+如果在网上搜索的话你会发现大多的tmux配置文件都是大同小异. 在我的配置文件并没有像大多配置一样将tmux的前缀键(类似emacs)的前缀键重映射为`Ctrl+a`，而是选择了默认设置`Ctrl+b`. 另外在颜色选择上不同平台下渲染的效果不一样, 注意适应。
 
 下面是我的配置文件. 
 
@@ -80,7 +83,7 @@ tmux使用C/S模型构建，主要包括以下单元模块：
 
 
 
-### Getting Started
+### 开始tmux
 
 开始tmux使用。以下大部分内容均为默认设置, 如果在配置文件修改了设置则以配置文件为准。**且在英文输入状态下进行。**
 
@@ -96,11 +99,15 @@ commend | explanation
 `tmux kill-session -t myname` | 关闭指定会话myname
 
 
-### Sessions
+### 会话
 
 以下的session(会话)、window(窗口)与pane(面板)命令中，PREFIX表示前缀键, 即如果未重映射前缀键的话，PREFIX表示`Ctrl+b`，然后再按后面的键。
 
-会话命令加前缀键。比如下面的s即指prefix+s，Ctrl+b+s.
+会话命令加前缀键。比如下面的s即指prefix+s，Ctrl+b+s. 分3步：
+
+1. 按下 Ctrl-b 键 (tmux 前缀键)
+2. 放开 Ctrl-b 
+3. 按下  s 键
 
 commend | explanation
 :---:|:---:
@@ -112,9 +119,9 @@ commend | explanation
 `)` | 切换到下一会话
 `L (Last)` | 切换到最后一个会话
 
-### Windows(Tabs)
+### 窗口(标签)
 
-窗口操作。加前缀键。
+window, 窗口操作。加前缀键。
 
 commend | explanation
 :---:|:---:
@@ -127,9 +134,9 @@ commend | explanation
 `p (previous)` | 切换到上一窗口
 `l (last)` | 切换到最后一个使用的窗口
 
-### Panes (Splits)
+### 面板 (分割)
 
-面板操作。加前缀键。
+pane, 面板操作。加前缀键。
 
 commend | explanation
 :---:|:---:
@@ -148,17 +155,39 @@ commend | explanation
 `{` | 移动当前面板到左侧
 `}` | 移动当前面板到右侧
 
-### Copy Mode
+### 复制模式
 
-Pressing PREFIX-[ places us in Copy mode. We can then use our movement keys to move our cursor around the screen. By default, the arrow keys work. We set our configuration file to use Vim keys for moving between windows and resizing panes so we wouldn’t have to take our hands off the home row. tmux has a vi mode for working with the buffer as well. To enable it, add this line to .tmux.conf:
-
+按下 `PREFIX-[` 即可进入复制模式. 然后使用方向键在屏幕上进行移动. 默认情况下只有方向键起作用. 不过我们可以在配置文件中进入设置以vi的方式进行移动。 在`.tmux.conf`加入:
 `setw -g mode-keys vi`
+设置完以后, 我们就可以利用 `h`, `j`, `k`, and `l` 进行移动.
 
-With this option set, we can use `h`, `j`, `k`, and `l` to move around our buffer.
+不过默认情况下，文本只能够在同一个tmux会话中进行复制与粘贴。为了能够将文本粘贴到任何地方，还需要告诉tmux复制到系统的粘贴板。为此需要安装`reattach-to-user-namspace`.
 
-To get out of Copy mode, we just press the Enter key. Moving around one character at a time isn’t very efficient. Since we enabled vi mode, we can also use some other visible shortcuts to move around the buffer.
+1. 安装[reattach-to-user-namespace](https://github.com/ChrisJohnsen/tmux-MacOSX-pasteboard), 使用brew的话非常方便，一个命令即可：
+`brew install reattach-to-user-namespace`
 
-For example, we can use w to jump to the next word and b to jump back one word. And we can use f, followed by any character, to jump to that character on the same line, and F to jump backwards on the line.
+2. 设置`.tmux.conf`配置文件
+
+```
+# invoke reattach-to-user-namespace every time a new window/pane opens
+set-option -g default-command "reattach-to-user-namespace -l bash"
+```
+
+**选取与复制文本**
+
+1. 进入tmux的复制模式：prefix+`[`, 此时会看到右上角出现如下图所示的标记：
+
+![tmux](/images/blog/2016/04-01/copy-signal.png)
+
+2. 以vim的方式在文本间进行移动。
+
+3. 移动到想要开始复制文本块的地方，按下`space`键开始选中文本, 与vim的visual模式很像。
+
+4. 文本选择完毕按下`enter`键退出复制模式。
+
+此时如果你已经安装了reattach-to-user-namespace, 那么你可以在任何地方进行粘贴。如果没有，你可以在tmux的该会话中使用prefix+`]`进行粘贴。
+
+![tmux](/images/blog/2016/04-01/tmux-copy.gif)
 
 commend | explanation
 :---:|:---:
