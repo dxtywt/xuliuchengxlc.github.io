@@ -1,7 +1,7 @@
 ---
 
 yout: post
-title: tmux备忘录
+title: 终端利器：tmux
 tags: tmux
 author: Liucheng Xu
 disqus: "y"
