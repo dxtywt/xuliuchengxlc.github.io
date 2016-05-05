@@ -1,7 +1,7 @@
 ---
 
 layout: postMath
-title: 理解梯度下降
+title: 从导数的物理意义理解梯度下降
 tags: mathematics
 author: Liucheng Xu
 disqus: "y"
