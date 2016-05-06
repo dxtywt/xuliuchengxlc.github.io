@@ -720,13 +720,28 @@ code
 }
 pre code
 {
-    font-family: Monaco,Profont,Proggy,Consolas,Inconsolata,Courier;
+    font-family: Monaco,Profont,Consolas,Proggy,Inconsolata,Courier;
 
     background-color: #456;/* 与prettify.css pre.prettyprint同步*/
 }
 .copyright
 {
-    text-align: center;
+    font-size: 85%;
+    font-family: "Microsoft Yahei", Helvetica, Arial, sans-serif;
+    padding: 1px 20px 1px 8px;
+    margin: 0px 50px 30px 50px;
+    color: #468847;
+    background-color: #dff0d8;
+    border-radius: 6px;
 
-    color: #888;
+}
+.copyright a
+{
+    color: #5cb85c;
+    font-size: 85%;
+    font-family: "Microsoft Yahei", Helvetica, Arial, sans-serif;
+}
+.copyright p
+{
+    padding: 0 0 0 20px;
 }
