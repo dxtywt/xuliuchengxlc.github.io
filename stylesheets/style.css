@@ -104,7 +104,7 @@ ul
 ol,
 ol li
 {
-    margin: 0; 
+    margin: 0;
     padding: 0;
 }
 
@@ -214,7 +214,7 @@ ul#markdown-toc li
 
 blockquote
 {
-    font-style: normal !important; 
+    font-style: normal !important;
 
     margin: 0;
 }
@@ -242,7 +242,7 @@ footer *
 
 #container
 {
-    position: relative; 
+    position: relative;
 
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
@@ -260,7 +260,7 @@ footer *
 #container:before,
 #container:after
 {
-    display: table; 
+    display: table;
 
     content: ' ';
 }
@@ -272,7 +272,7 @@ footer *
 {
     padding: 30px 40px 24px;
 
-    text-align: center; 
+    text-align: center;
 
     border-top: 1px solid #efefef;
     border-bottom: 1px solid #efefef;
@@ -292,7 +292,7 @@ footer *
     zoom: 1;
 
     margin-right: 12px;
-    margin-bottom: 6px; 
+    margin-bottom: 6px;
     padding: 2px 2px;
 
     vertical-align: baseline;
@@ -307,7 +307,7 @@ footer *
 #container .block .button
 {
     display: inline-block;
-    overflow: hidden; 
+    overflow: hidden;
     zoom: 1;
 
     height: 20px;
@@ -326,7 +326,7 @@ footer *
        -moz-box-sizing: border-box;
             box-sizing: border-box;
     width: 100%;
-    margin: auto; 
+    margin: auto;
     padding: 30px 60px;
 
     border-width: 0;
@@ -348,7 +348,7 @@ a,
        -moz-transition: color .3s;
         -ms-transition: color .3s;
          -o-transition: color .3s;
-            transition: color .3s; 
+            transition: color .3s;
     vertical-align: baseline;
     text-decoration: none;
 
@@ -475,7 +475,7 @@ ul.posts .datetime
 
     width: 130px;
 
-    text-align: right; 
+    text-align: right;
     vertical-align: baseline;
     text-transform: uppercase;
 
@@ -488,7 +488,7 @@ ul.posts .datetime
 section.post
 {
     margin: 0 -60px;
-    padding: 0; 
+    padding: 0;
 
     text-align: left;
 
@@ -515,14 +515,14 @@ section.post h1
 {
     line-height: 1.5em;
 
-    margin-bottom: 60px; 
+    margin-bottom: 60px;
 
     text-align: center;
     text-transform: uppercase;
 }
 section.post .date
 {
-    font-size: 16px; 
+    font-size: 16px;
 
     color: #d0d0d0;
 }
@@ -557,7 +557,7 @@ section > p *
 section.post em strong,
 section > p em strong
 {
-    padding: 0 2px; 
+    padding: 0 2px;
 
     background-color: #ffe;
 }
@@ -619,7 +619,7 @@ section > p blockquote:after
     width: 7px !important;
 
     content: '^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^';
-    white-space: normal; 
+    white-space: normal;
     word-break: break-all;
 
     color: #d0dfda;
