@@ -18,7 +18,7 @@ tmux是一个优秀的终端多路复用软件，类似GNU Screen，但来自于
 
 ![tmux](/images/blog/2016/04-01/screen.png)
 
-为什么使用tmux： 
+#### 为什么使用tmux： 
 
 tmux比screen有更多的功能，能够保持工作环境的**连续性**。例如tmux解决如下的问题：
 

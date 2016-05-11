@@ -25,19 +25,22 @@ b
 }
 h2
 {
-    margin-top: 20px;
-
-    background: url(/images/titleline.jpg) no-repeat 25% 121%;
+    color: #fff;
+    background: #59c3e4;
+    border-radius: 4px;
+    margin: 20px 60px 10px 60px;
+    line-height:170%;
 }
 h3
 {
-    margin-bottom: -12px;
+    margin-bottom: -5px;
 
-    background: url(/images/titlelineh3.jpg) no-repeat 48% 140%;
+    background: url(/images/titleline.jpg) no-repeat 25% 121%;
 }
 h4
 {
-    margin-bottom: -16px;
+    margin-bottom: -10px;
+    background: url(/images/titlelineh3.jpg) no-repeat 48% 140%;
 }
 strong
 {
