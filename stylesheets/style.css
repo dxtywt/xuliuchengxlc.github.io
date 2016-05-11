@@ -748,7 +748,11 @@ pre code
 {
     font-family: Monaco,Profont,Consolas,Proggy,Inconsolata,Courier;
 
-    background-color: #456;/* 与prettify.css pre.prettyprint同步*/
+    background-color: #fdf6e3;/* 与prettify.css pre.prettyprint同步*/
+}
+section.post pre ol
+{
+    padding-left: 30px;
 }
 .copyright
 {
