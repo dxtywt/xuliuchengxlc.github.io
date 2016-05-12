@@ -15,12 +15,6 @@ links:
   - name:         GitHub
     url:          http://github.com/xuliuchengxlc
     external:     true
-  - name:         Weibo
-    url:          http://weibo.com/3168860973/profile?rightmod=1&wvr=6&mod=personinfo&is_all=1 
-    external:     true 
-  - name:         Zhihu
-    url:          https://www.zhihu.com/people/simple_the_best
-    external:     true
 
 kramdown:
   input:    GFM
