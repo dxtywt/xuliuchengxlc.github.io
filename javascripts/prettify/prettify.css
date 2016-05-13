@@ -1,6 +1,5 @@
 /* desert scheme ported from vim to google prettify */
-pre.prettyprint { display: block; background-color: #fdf6e3; font-size:10pt; margin: 0px 50px 0px 50px;
-border: solid .5px lightgrey;}
+pre.prettyprint { display: block; background-color: #fdf6e3; font-size:10pt; margin: 0px 50px 0px 50px;}
 pre .nocode { background-color: none; color: #000 }
 pre .str { color: #ffa0a0 } /* string  - pink */
 pre .kwd { color: #b58900; font-weight: bold }
