@@ -3,6 +3,7 @@ layout: post
 title: My First Post
 author: Liucheng Xu
 tags: Others
+math: y
 disqus: y
 ---
 
@@ -33,9 +34,9 @@ This is *red*{: style="color: red"}.
 
 - 表格
 
- 一些简单样式 | 效果 
- :--------:   | :--------: 
-  italics      | _italics_      
+ 一些简单样式 | 效果
+ :--------:   | :--------:
+  italics      | _italics_
    删除线|~~删除线~~
 强调       |*强调*
 加粗|**加粗**
@@ -58,10 +59,10 @@ class Hello{
     pulblic void test(){
         System.out.println("test");
     }
-    
+
     public static void main(String[] args){
         System.out.println("hello");
     }
-    
+
 }
 ```
