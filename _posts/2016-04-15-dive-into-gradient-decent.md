@@ -41,16 +41,15 @@ published: true
 因而，如果$\mathbf{b}=\mathbf{a}-\gamma\nabla F(\mathbf{a})$
 对于$\gamma>0$为一个够小数值时成立，那么$F(\mathbf{a})\geq F(\mathbf{b})$。
 
-考虑到这一点，我们可以从函数F的局部极小值的初始估计 $\mathbf{x}_0$ 出发，并考虑如下序列 
+考虑到这一点，我们可以从函数F的局部极小值的初始估计 $$ \mathbf{x}_0 $$ 出发，并考虑如下序列 
+$$\mathbf{x}_0, \mathbf{x}_1, \mathbf{x}_2, \dots$$ 
 
-$\mathbf{x}_0$, $\mathbf{x}_1$, $\mathbf{x}_2$, $\dots$
-
-使得$\mathbf{x}_{n+1}=\mathbf{x}_n-\gamma_n \nabla F(\mathbf{x}_n)$,$\ n \ge 0$。
+使得 $$\mathbf{x}_{n+1}=\mathbf{x}_n-\gamma_n \nabla F\left(\mathbf{x}_n\right)  \ n \ge 0$$。
 
 因此可得到
-$F(\mathbf{x}_0)\ge F(\mathbf{x}_1)\ge F(\mathbf{x}_2)\ge \cdots$,
+$$F(\mathbf{x}_0)\ge F(\mathbf{x}_1)\ge F(\mathbf{x}_2)\ge \cdots$$
 
-如果顺利的话序列$(\mathbf{x}_n)$收敛到期望的极值。注意每次迭代步长$\gamma$可以改变。
+如果顺利的话序列收敛到期望的极值。注意每次迭代步长$\gamma$可以改变。
 
 下面的图片示例了这一过程，这里假设F定义在平面上，并且函数图像是一个碗形。蓝色的曲线是等高线（水平集），即函数F为常数的集合构成的曲线。红色的箭头指向该点梯度的反方向。（一点处的梯度方向与通过该点的等高线垂直）。沿着梯度下降方向，将最终到达碗底，即函数F值最小的点。
 
@@ -96,10 +95,6 @@ $F(\mathbf{x}_0)\ge F(\mathbf{x}_1)\ge F(\mathbf{x}_2)\ge \cdots$,
 ### 导数
 
 导数（Derivative）是微积分学中重要的基础概念。一个函数在某一点的导数描述了这个函数在这一点附近的**变化率**。导数的本质是通过**极限**的概念对函数进行局部的线性逼近。
-
-
-当函数 $f$ 的自变量在一点 $x_0$ 上产生一个增量 $h$ 时， 
-函数输出值的增量与自变量增量 $h$ 的比值在 $h$ 趋于 $0$ 时的极限如果存在，即为 $f$ 在 $x_0$ 处的导数，记作 $f'(x_0)$、$\frac{\mathrm{d}f}{\mathrm{d}x}(x_0)$ 或 $\left.\frac{\mathrm{d}f}{\mathrm{d}x}\right|_{x=x_0}$.
 
 **物理意义上表示函数值在这一点的变化率。**
 

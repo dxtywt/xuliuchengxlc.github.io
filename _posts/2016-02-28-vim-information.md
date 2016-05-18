@@ -1,6 +1,6 @@
 ---
 layout: post
-title: vim备忘录
+title: 开始vim之路
 author: Liucheng Xu
 tags: vim
 disqus: y
@@ -8,6 +8,8 @@ disqus: y
 
 * TOC
 {:toc}
+
+## vim 基础知识
 
 ### vim概览
 - vim的命令有如下特点：
@@ -25,6 +27,17 @@ disqus: y
 另外，text object（光标移动命令）可使用数值参数，因此可将数值加在c、d、y等命令的文本对象上。例如d2w与2dw都是删除两个单词的命令。在了解这一点后，其实大部分vim命令都遵循如下模式： <code>(command)(number)(text object)</code>或者其等效模式: <code>(number)(command)(text object)</code>. 它们的工作方式是这样的：number与command为可选项。如果没有这两部分，只是单纯的光标移动命令；如果加上number，则出现移动多次的效果；结合command（c、d、y等等）与text object, 则会得到编辑命令。
 
 当你认识到这些组合的多样性后，vim就成为有强大威力的编辑器了！
+
+
+### 保存退出
+下列操作都是在命令行模式下，即退出操作为输入<code>:q</code>.
+
+- q ( quit ): 退出，如果有未保存的修改则无法退出
+- q! ( force quit ): 强制退出
+- w ( write edits to disk (save file) ): 保存文件。<code>:w FILENAME</code>即是将当前正在编辑的文件另保存为FILENAME文件，并存储在进入vim的目录下。
+- w! ( force write ): 强制保存
+- ZZ ( quit and save edits ): 保存文件并退出。等同于wq.
+- e! (  revert your changes ): 回滚所有修改至原始状态，也就是说消除所有的编辑结果，回到原来的文件。
 
 
 ### 在当前行 ( current line ) 有效的移动光标
@@ -99,20 +112,7 @@ disqus: y
 - p ( paste or put )(小写p) : 在当前行后粘贴。
 - P（ 大写P ）: 在当前行前粘贴。
 
-### 调整本行内容位置
-- <code>:ce</code> : 在命令行模式下输入 <code>:ce</code> (center)将本行内容居中。
-- <code>:ri</code> : 将本行内容居右(right).
-- <code>:le</code> : 将本行内容居左(left).
-
-### 保存退出
-下列操作都是在命令行模式下，即退出操作为输入<code>:q</code>.
-
-- q ( quit ): 退出，如果有未保存的修改则无法退出
-- q! ( force quit ): 强制退出
-- w ( write edits to disk (save file) ): 保存文件。<code>:w FILENAME</code>即是将当前正在编辑的文件另保存为FILENAME文件，并存储在进入vim的目录下。
-- w! ( force write ): 强制保存
-- ZZ ( quit and save edits ): 保存文件并退出。等同于wq.
-- e! (  revert your changes ): 回滚所有修改至原始状态，也就是说消除所有的编辑结果，回到原来的文件。
+## vim 进阶
 
 ### 使用数字
 在很多 vim 的命令之前都可以使用一个数字，这个数字将会告诉 vim 这个命令需要执行几次。比如：
@@ -135,6 +135,17 @@ vim 是程序员专用，自然有一些特性是专门为程序员而设计的�
 
 - 比如对于`hello(test)`，**光标停留在括号处**，那么`di(` 表示删除括号里面的内容,即删除括号里面的test内容, 简记为`delete in (`。同理，`(`也可以换成`[`，删除里面的内容。还有类似的`da(`是连同周围的括号一起删除，`delete around (`.
 
-### 参考资料
+### 调整本行内容位置
+- <code>:ce</code> : 在命令行模式下输入 <code>:ce</code> (center)将本行内容居中。
+- <code>:ri</code> : 将本行内容居右(right).
+- <code>:le</code> : 将本行内容居左(left).
+
+## vim 快速配置
+
+
+
+
+[注] 参考资料
+ 
 - [Vim学习笔记](http://mturing.com/wiki/wikihtml/Vim%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.html)
 - 学习vi与vim编辑器 第七版 中文 东南大学出版社
