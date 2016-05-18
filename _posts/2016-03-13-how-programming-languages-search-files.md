@@ -2,7 +2,7 @@
 layout: post
 title: C、Java、Python如何查找相对路径上的文件
 author: Liucheng Xu
-tags: "programming language"
+tags: "programming"
 disqus: y
 ---
 
