@@ -12,13 +12,13 @@ published: true
 * TOC
 {:toc}
 
-### 适用场景
+## 适用场景
 
 tmux是一个优秀的终端多路复用软件，类似GNU Screen，但来自于OpenBSD，采用BSD授权。使用它最直观的好处就是，通过一个终端登录远程主机并运行tmux后，在其中可以开启多个控制台而无需再“浪费”多余的终端来连接这台远程主机；当然其功能远不止于此，比如分屏(当然其他一些软件也能达到这个目的，比如vim，但我还是喜欢tmux的分屏)。
 
 ![tmux](/images/blog/2016/04-01/screen.png)
 
-#### 为什么使用tmux： 
+### 为什么使用tmux：
 
 tmux比screen有更多的功能，能够保持工作环境的**连续性**。例如tmux解决如下的问题：
 
@@ -42,20 +42,20 @@ tmux使用C/S模型构建，主要包括以下单元模块：
 
 ![tmux](/images/blog/2016/04-01/tmux.png)
 
-#### 远程主机连接
+### 远程主机连接
 
-- 一键启动远程主机上的 tmux：  
-`ssh -t username@server.com tmux` 
+- 一键启动远程主机上的 tmux：
+`ssh -t username@server.com tmux`
 
 - 如果你之前在远程主机上已经开启了 tmux 的话，用以下命令。
-  
-  远程主机仅有一个tmux会话，直接进行重连：  
+
+  远程主机仅有一个tmux会话，直接进行重连：
   `ssh -t username@server.com tmux a`
 
-  远程主机有多个tmux会话，我们想要指定重新连接名为foo的tmux会话 ( ssh后面的`-t`为了执行任意一个基于screen的远端主机上的程序，不可省略。tmux后面的`-t`为`-target`的简写，旨在指定tmux的会话名)：  
+  远程主机有多个tmux会话，我们想要指定重新连接名为foo的tmux会话 ( ssh后面的`-t`为了执行任意一个基于screen的远端主机上的程序，不可省略。tmux后面的`-t`为`-target`的简写，旨在指定tmux的会话名)：
   `ssh -t username@server.com tmux a -t foo`
-  
-#### 注意事项
+
+### 注意事项
 
 在不同大小的屏幕连接一个session可能会出现问题。比如在一个较小的桌面打开一个session, 然后又在一个较大的桌面也打开这个session. 则会发现在较大的桌面上, 也只会显示和小桌面同样大小的窗口, 其余部分被密密麻麻的小点扩充.
 
@@ -75,7 +75,7 @@ tmux使用C/S模型构建，主要包括以下单元模块：
 
 如果在网上搜索的话你会发现大多的tmux配置文件都是大同小异. 在我的配置文件并没有像大多配置一样将tmux的前缀键(类似emacs)的前缀键重映射为`Ctrl+a`，而是选择了默认设置`Ctrl+b`. 另外在颜色选择上不同平台下渲染的效果不一样, 注意适应。
 
-下面是我的配置文件. 
+下面是我的配置文件.
 
 <script src="https://gist.github.com/xuliuchengxlc/bae72ae083aecdbf2ee8bfba81401908.js"></script>
 
@@ -83,7 +83,7 @@ tmux使用C/S模型构建，主要包括以下单元模块：
 
 
 
-### 开始tmux
+## 开始tmux
 
 开始tmux使用。以下大部分内容均为默认设置, 如果在配置文件修改了设置则以配置文件为准。**且在英文输入状态下进行。**
 
@@ -106,7 +106,7 @@ commend | explanation
 会话命令加前缀键。比如下面的s即指prefix+s，Ctrl+b+s. 分3步：
 
 1. 按下 Ctrl-b 键 (tmux 前缀键)
-2. 放开 Ctrl-b 
+2. 放开 Ctrl-b
 3. 按下  s 键
 
 commend | explanation
@@ -215,7 +215,7 @@ commend | explanation
 `q` | Quit mode
 `C-Down` / `J` | Scroll down
 `C-Up` / `K`   | Scroll up
-`n` | Search again 
+`n` | Search again
 `?` | Search backward
 `/` | Search forward
 `0` | Start of line

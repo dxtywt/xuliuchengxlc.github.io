@@ -110,6 +110,7 @@ ul#markdown-toc {
     width: 78%;
     max-height: 80%;
     margin-left: 60px;
+    margin-bottom: 40px;
     padding: .5em 1em .5em 4em;
     list-style-type: square;
     border-left: 6px solid #33cccc ;

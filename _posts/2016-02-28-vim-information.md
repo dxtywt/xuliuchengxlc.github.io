@@ -28,8 +28,94 @@ disqus: y
 
 当你认识到这些组合的多样性后，vim就成为有强大威力的编辑器了！
 
+### 按词性划分
 
-### 保存退出
+#### 动词
+
+动词代表了我们打算对文本进行什么样的操作。例如：
+
+- d 表示删除（delete）
+- r 表示替换（replace）
+- c 表示修改（change）
+- y 表示复制（yank）
+- v 表示选取（visual select）
+
+#### 介词
+
+名词代表了我们即将处理的文本。Vim 中有一个专门的术语叫做文本对象（text object），下面是一些文本对象的示例：
+
+- w 表示一个单词（word）
+- s 表示一个句子（sentence）
+- p 表示一个段落（paragraph）
+- t 表示一个 HTML 标签（tag）
+- 引号或者各种括号所包含的文本称作一个文本块。
+
+#### 介词
+
+介词界定了待编辑文本的范围或者位置。例如：
+
+- i 表示“在…之内”（inside）
+- a 表示“环绕…”（around）
+- t 表示“到…位置前”（to）
+- f 表示“到…位置上”（forward）
+
+下面是几个有关范围的示意图，你们感受一下：
+
+![vim-position](/images/blog/2016/02-28/position.png)
+
+#### 组词为句
+
+有了这些基本的语言元素，我们就可以着手构造一些简单的命令了。文本编辑命令的基本语法如下：`动词 （介词） 名词`, 其中介词并非必要.
+
+下面是一些例子（如果熟悉了上面的概念，你将会看到这些例子非常容易理解），请亲自在 Vim 中试验一番。
+
+```
+# 删除一个段落: delete inside paragraph
+    dip
+
+# 选取一个句子: visual select inside sentence
+    vis
+
+# 修改一个单词: change inside word
+    ciw
+
+# 修改一个单词: change around word
+    caw
+
+# 删除文本直到字符“x”（不包括字符“x”）: delete to x
+    dtx
+
+# 删除文本直到字符“x”（包括字符“x”）: delete forward x
+    dfx
+```
+
+#### 数词
+
+数词指定了待编辑文本对象的数量，从这个角度而言，数词也可以看作是一种介词。引入数词之后，文本编辑命令的语法就升级成了下面这样：`动词 (介词/数词) 名词`
+下面是几个例子：
+
+```
+# 修改三个单词：change three words
+c3w
+
+# 删除两个单词：delete two words
+d2w
+```
+
+另外，数词也可以修饰动词，表示将操作执行 n 次。于是，我们又有了下面的语法： `数词 动词 名词`.
+请看示例：
+
+```
+# 两次删除单词（等价于删除两个单词）: twice delete word
+2dw
+
+# 三次删除字符（等价于删除三个字符）：three times delete character
+3x
+```
+
+### 按操作划分
+
+#### 保存退出
 下列操作都是在命令行模式下，即退出操作为输入<code>:q</code>.
 
 - q ( quit ): 退出，如果有未保存的修改则无法退出
@@ -40,7 +126,7 @@ disqus: y
 - e! (  revert your changes ): 回滚所有修改至原始状态，也就是说消除所有的编辑结果，回到原来的文件。
 
 
-### 在当前行 ( current line ) 有效的移动光标
+#### 在当前行 ( current line ) 有效的移动光标
 当光标从一点移动到另外一点，在这两点之间的文本（包括这两个点）称作被“跨过”，这里的命令也被称作是 **motion**。（简单说明一下，后面会用到这个重要的概念）
 
 - fx ( forword to x or find x ): 移动光标到 *当前行* 的 下一个 x 处，x 表示任意单个字符,区分大小写。例：fa:移动光标到当前行的下一个字母a处。
@@ -55,7 +141,7 @@ disqus: y
 - )：移动光标到下个句子。
 - (：移动光标到上个句子。
 
-### 在整个文件 ( file ) 里有效的移动光标
+#### 在整个文件 ( file ) 里有效的移动光标
 - < c-f > （ Ctrl+forward ）: 向下移动整屏。
 - < c-b > （ Ctrl+backward ）：向上移动整屏。
 - < c-d > ( Ctrl+down ) : 向下移动半屏。
@@ -71,7 +157,7 @@ disqus: y
 - /text：从当前光标处开始搜索字符串 text，并且到达 text 出现的地方。必须使用回车来开始这个搜索命令。如果想重复上次的搜索的话，按 n。如果想要精确查找的话，不妨在text的前后加上空格。比如我想查找back，但是不想要诸如background之类的词出现，可以输入<code>:/ back </code>,而不是<code>/back</code>。
 - ?text：和上面类似，但是反方向。
 
-### 快速进入插入模式 ( insert mode )
+#### 快速进入插入模式 ( insert mode )
 - i （ insert ）：在当前字符的左边插入
 - I：在当前行首插入
 - a （ append ）：在当前字符的右边插入
@@ -81,14 +167,14 @@ disqus: y
 - c （ change ）{motion}：删除 motion 命令跨过的字符，并且进入插入模式。比如：c$，这将会删除从光标位置到行尾的字符并且进入插入模式。ct！，这会删除从光标位置到下一个叹号（但不包括），然后进入插入模式。被删除的字符被存在了剪贴板里面，并且可以再粘贴出来。
 - d （ delete ）{motion}：和上面差不多，但是不进入插入模式。
 
-### 在可视模式 ( visual mode ) 下选中
+#### 在可视模式 ( visual mode ) 下选中
 在 visual mode 选中的内容会被高亮，可能经常会有以下几个操作。
 
 - d：剪贴选择的内容到剪贴板。
 - y：拷贝选择的内容到剪贴板。
 - c：剪贴选择的内容到剪贴板并且进入插入模式。
 
-### 在非可视选择模式下剪切和拷贝
+#### 在非可视选择模式下剪切和拷贝
 - d( delete ){motion}：剪切 motion 命令跨过的字符到剪贴板。比如，dw 会剪切一个词; dfS 会将从当前光标到下一个 S 之间的字符剪切至剪贴板。
 - y( yank ){motion}：和上面类似，不过是拷贝。
 - c( change ){motion}：和 d( delete ){motion} 类似，不过最后进入插入模式。
@@ -101,14 +187,14 @@ disqus: y
 - x：剪切(当前字符到剪贴板)。
 - s：和x类似，不过最后进入插入模式。
 
-### 替换(更改)文本
+#### 替换(更改)文本
 - <code>~</code> : 游标所在处字符进行大小写替换。
 - r ( replace ) : 替换单个字符，不必进入插入模式(insert mode)。 在 normal mode 下将光标停在想要替换的字符处，输入<code>r</code>紧接着再输入想要替换后的字符即可。完成后仍然在normal mode。
 - R : 大写的R表示连续替换，直到按下<code>esc</code>.
 - cc ( change )：替换整行，即删除游标所在行，并进入插入模式。
 - s ( substitute ) : 替换。在normal mode下的<code>s</code>将会删除光标处的字符并进入 insert mode，此时便可进行重新编辑。
 
-### 粘贴
+#### 粘贴
 - p ( paste or put )(小写p) : 在当前行后粘贴。
 - P（ 大写P ）: 在当前行前粘贴。
 
@@ -142,10 +228,16 @@ vim 是程序员专用，自然有一些特性是专门为程序员而设计的�
 
 ## vim 快速配置
 
+[我的vim配置](https://github.com/xuliuchengxlc/vim), 我一开始都是用的别人的配置，试过GitHub上一些比较有名的vim配置。后来熟悉了以后，便模仿各种vim配置尝试从零开始配置自己的一套。
+
+现在的vim配置其实很简单，主要就是`.vimrc`和各种插件增强功能而已。
+
+在快捷键的设置上，仿照了[spacemacs](https://github.com/syl20bnr/spacemacs)的思路，前缀键真的是一个非常重要的概念，学会使用它能够提升很大效率。
 
 
 
 [注] 参考资料
- 
+
 - [Vim学习笔记](http://mturing.com/wiki/wikihtml/Vim%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.html)
 - 学习vi与vim编辑器 第七版 中文 东南大学出版社
+- [一起来说vim语](http://www.codeceo.com/article/vim-language.html)
