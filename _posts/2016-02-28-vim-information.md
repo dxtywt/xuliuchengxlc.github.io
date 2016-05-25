@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 开始vim之路
+title: vim使用与配置
 author: Liucheng Xu
 tags: vim
 disqus: y
@@ -210,12 +210,18 @@ d2w
 ### 用vim写代码
 vim 是程序员专用，自然有一些特性是专门为程序员而设计的。这里是一些常用的：
 
-- ]p：和 p 的功能差不多，但是它会自动调整被粘贴的文本的缩进去适应当前代码的位置。试一下！
-- %：匹配花括号、方括号、括号等。光标在一个括号的上面，然后按 %，鼠标就会出现在匹配的另外一半括号处。
 - \>：缩进所有选择的代码
 - \<：和上面类似，但是反缩进
-- gd ( go to definition )：到达光标所在处函数或者变量的定义处。
-- K：在 Man 里面查找光标当前所在处的词。
+ 
+### 查找替换
+s指substitute（代替，替换的意思），g指global。
+- `:s/hello/sky/` 替换当前行第一个 hello 为 sky
+- `:s/hello/sky/g` 替换当前行所有 hello 为 sky
+- `:n,$s/hello/sky/` 替换第 n 行开始到最后一行中每一行的第一个 hello 为 sky
+- `:n,$s/hello/sky/g` 替换第 n 行开始到最后一行中每一行所有 hello 为 sky(n 为数字，若 n 为 .，表示从当前行开始到最后一行)
+- `:%s/hello/sky/` 替换所有行的第一个 vivian 为 sky
+- `%s/hello/sky/g` 替换所有行中所有 hello 为 sky
+
 
 ### 不常见的技巧
 
@@ -235,6 +241,7 @@ vim 是程序员专用，自然有一些特性是专门为程序员而设计的�
 在快捷键的设置上，仿照了[spacemacs](https://github.com/syl20bnr/spacemacs)的思路，前缀键真的是一个非常重要的概念，学会使用它能够提升很大效率。
 
 
+---
 
 [注] 参考资料
 

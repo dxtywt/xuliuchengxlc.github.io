@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 打造一个漂亮、简单、高效的Windows环境
+title: 打造一个简洁高效的Windows环境
 tags: Windows
 author: Liucheng Xu
 disqus: "y"

@@ -1,7 +1,7 @@
 ---
 
 yout: post
-title: 终端利器：tmux
+title: tmux配置与使用
 tags: tmux
 author: Liucheng Xu
 disqus: "y"
